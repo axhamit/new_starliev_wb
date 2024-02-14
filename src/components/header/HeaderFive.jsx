@@ -163,108 +163,8 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
                 </div>
               </Col>
 
-              <Col className="header-menu-column d-none d-sm-flex justify-content-end">
-                <div className="ltn__header-options">
-                  <ul>
-                    <li>
-                      {/* mini-cart 2 */}
-                      <div className="mini-cart-icon mini-cart-icon-2">
-                        <button
-                          onClick={cartMenu}
-                          className="ltn__utilize-toggle"
-                        >
-                          <span className="mini-cart-icon">
-                            {/* <i className="icon-shopping-cart" /> */}
-                            <FaCartArrowDown />
-                            {cartItems.length > 0 ? (
-                              <sup>{cartItems.length}</sup>
-                            ) : (
-                              <sup>0</sup>
-                            )}
-                          </span>
-                          <h6>
-                            <span>Your Cart</span>
-                            <span className="ltn__secondary-color text-start">
-                              ${cartTotalPrice.toFixed(2)}
-                            </span>
-                          </h6>
-                        </button>
-                      </div>
-                    </li>
-                  </ul>
-
-                </div>
-                <div className="mobile-menu-toggle me-0 ms-3 d-lg-none">
-                    <button
-                      onClick={offcanVasToggler}
-                      className={`ltn__utilize-toggle ${
-                        offCanVastoggleBtn ? "close" : ""
-                      }`}
-                    >
-                      <svg viewBox="0 0 800 600">
-                        <path
-                          d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"
-                          id="top"
-                        ></path>
-                        <path d="M300,320 L540,320" id="middle"></path>
-                        <path
-                          d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190"
-                          id="bottom"
-                          transform="translate(480, 320) scale(1, -1) translate(-480, -318) "
-                        ></path>
-                      </svg>
-                    </button>
-                  </div>
-              </Col>
-              <Col className="d-sm-none">
-                <div className="ltn__header-options">
-                  <ul className="mt-2">
-                    <li>
-                      {/* mini-cart 2 */}
-                      <div className="mini-cart-icon mini-cart-icon-2">
-                        <button
-                          onClick={cartMenu}
-                          className="ltn__utilize-toggle mnw-auto"
-                        >
-                          <span className="mini-cart-icon">
-                            {/* <i className="icon-shopping-cart" /> */}
-                            <FaCartArrowDown />
-                            {cartItems.length > 0 ? (
-                              <sup>{cartItems.length}</sup>
-                            ) : (
-                              <sup>0</sup>
-                            )}
-                          </span>
-        
-                        </button>
-                      </div>
-                    </li>
-                  </ul>
-
-                  {/* <!-- Mobile Menu Button --> */}
-                  <div className="mobile-menu-toggle">
-                    <button
-                      onClick={offcanVasToggler}
-                      className={`ltn__utilize-toggle ${
-                        offCanVastoggleBtn ? "close" : ""
-                      }`}
-                    >
-                      <svg viewBox="0 0 800 600">
-                        <path
-                          d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"
-                          id="top"
-                        ></path>
-                        <path d="M300,320 L540,320" id="middle"></path>
-                        <path
-                          d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190"
-                          id="bottom"
-                          transform="translate(480, 320) scale(1, -1) translate(-480, -318) "
-                        ></path>
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-              </Col>
+            
+      
             </Row>
           </Container>
         </div>
@@ -308,6 +208,8 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
         cartMenuOpener={cartMenuOpener}
         closeSideBar={closeSideBar}
       />
+
+      {/* hello */}
 
       {/* <!-- Utilize Cart Menu End --> */}
 
