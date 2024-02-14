@@ -715,7 +715,7 @@ function HomeVersionEleven(props) {
                     <li>
                       <span>Details</span>{" "}
                       <span>
-                        <a href="product-details">+ Available</a>
+                        <a href="product-details"> Available</a>
                       </span>
                     </li>
                   </ul>
