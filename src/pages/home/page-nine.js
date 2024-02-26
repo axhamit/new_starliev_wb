@@ -823,7 +823,7 @@ function HomeVersionNine(props) {
                                 </div>
                                 <div className="search-by-place-btn">
                                   <Link href="#">
-                                    View Property{" "}
+                                    View{" "}
                                     <i className="flaticon-right-arrow"></i>
                                   </Link>
                                 </div>
@@ -872,7 +872,7 @@ function HomeVersionNine(props) {
                                 </div>
                                 <div className="search-by-place-btn">
                                   <Link href="#">
-                                    View Property{" "}
+                                    View{" "}
                                     <i className="flaticon-right-arrow"></i>
                                   </Link>
                                 </div>
@@ -921,7 +921,7 @@ function HomeVersionNine(props) {
                                 </div>
                                 <div className="search-by-place-btn">
                                   <Link href="#">
-                                    View Property{" "}
+                                    View{" "}
                                     <i className="flaticon-right-arrow"></i>
                                   </Link>
                                 </div>

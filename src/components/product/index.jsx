@@ -82,7 +82,7 @@ const ProductItem = ({
             </div>
             <div className="product-img-gallery">
               <ul>
-                <li>
+                {/* <li>
                   <Link
                     className="d-flex align-items-center justify-content-center"
                     href={`/${baseUrl}/${slug}`}
@@ -90,8 +90,8 @@ const ProductItem = ({
                     <FaCamera className="me-2" />
                     {productData.photo.length}
                   </Link>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <Link
                     className="d-flex align-items-center justify-content-center"
                     href={`/${baseUrl}/${slug}`}
@@ -99,7 +99,7 @@ const ProductItem = ({
                     <FaFilm className="me-2" />
                     {productData.video.length}
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -117,7 +117,7 @@ const ProductItem = ({
           <div className="product-description">
             <p>{productData.fullDescription}</p>
           </div>
-          <ul className="ltn__list-item-2 ltn__list-item-2-before">
+          {/* <ul className="ltn__list-item-2 ltn__list-item-2-before">
             <li>
               <span>
                 {productData.propertyDetails.bedrooms}
@@ -139,9 +139,9 @@ const ProductItem = ({
               </span>
               square Ft
             </li>
-          </ul>
+          </ul> */}
         </div>
-        <div className="product-info-bottom">
+        {/* <div className="product-info-bottom">
           <div className="real-estate-agent">
             <div className="agent-img">
               <Link href="/team-details">
@@ -203,7 +203,7 @@ const ProductItem = ({
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <QuickViewtModal

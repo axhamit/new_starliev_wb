@@ -22,7 +22,7 @@ const PropertyItem = ({ product, slug,baseUrl }) => {
           </h4>
           <div className="search-by-place-btn">
             <Link href={`${baseUrl}/${slug}`}>
-              View Property <i className="flaticon-right-arrow"></i>
+              View <i className="flaticon-right-arrow"></i>
             </Link>
           </div>
         </div>

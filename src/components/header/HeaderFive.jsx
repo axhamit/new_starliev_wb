@@ -107,7 +107,7 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
 
               <Col className="header-contact-serarch-column d-none d-xl-block">
                 <div className="header-contact-search">
-                  {/* header-feature-item */}
+               
                   <div className="header-feature-item">
                     <div className="header-feature-icon">
                       <FaPhoneAlt className="icon-phone" />
@@ -119,7 +119,7 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
                       </p>
                     </div>
                   </div>
-                  {/* header-search-2 */}
+                
                   <div
                     className={`header-search-2 position-relative ${
                       searchFormOpener ? "search-open" : ""
@@ -203,11 +203,11 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
 
       {/* <!-- Utilize Cart Menu Start --> */}
 
-      <HeaderCartMenu
+      {/* <HeaderCartMenu
         cartMenu={cartMenu}
         cartMenuOpener={cartMenuOpener}
         closeSideBar={closeSideBar}
-      />
+      /> */}
 
       {/* hello */}
 
