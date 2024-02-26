@@ -51,9 +51,9 @@ function Feature({
                       <h3>
                         <Link href={`/service/${slug}`}>{item.title}</Link>
                       </h3>
-                      <p>{item.shortDescription}</p>
+                      {/* <p>{item.shortDescription}</p> */}
 
-                      {servicebtn ? (
+                      {/* {servicebtn ? (
                         <Link
                           className="ltn__service-btn"
                           href={`/service/${slug}`}
@@ -64,7 +64,7 @@ function Feature({
                         </Link>
                       ) : (
                         ""
-                      )}
+                      )} */}
                     </div>
                   </div>
                 </Col>

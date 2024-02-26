@@ -5,9 +5,10 @@ const MenuList = ({ addListing }) => {
     <ul>
       <li className="menu-icon">
         <Link href="/">
-          Home <FaPlus />
+          Home 
+          {/* <FaPlus /> */}
         </Link>
-        <ul className="sub-menu menu-pages-img-show">
+        {/* <ul className="sub-menu menu-pages-img-show">
           <li>
             <Link href="/">Home Style 01</Link>
             <img src="/img/home-demos/home-1.jpg" alt="#" />
@@ -52,13 +53,13 @@ const MenuList = ({ addListing }) => {
             <Link href="/home/page-eleven">Home Style 11</Link>
             <img src="/img/home-demos/home-11.jpg" alt="#" />
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className="menu-icon">
         <Link href="/about">
-          About <FaPlus />
+          About
         </Link>
-        <ul>
+        {/* <ul>
           <li>
             <Link href="/about">About</Link>
           </li>
@@ -83,20 +84,24 @@ const MenuList = ({ addListing }) => {
           <li>
             <Link href="/locations">Google Map Locations</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className="menu-icon">
         <Link href="#">
-          Property <FaPlus />
+          Rooms
+          {/* <FaPlus /> */}
         </Link>
         <ul>
           <li>
-            <Link href="/shop">Property</Link>
+            <Link href="/shop">Women</Link>
           </li>
           <li>
-            <Link href="/shop/grid">Property Grid</Link>
+            <Link href="/shop/grid">Men</Link>
           </li>
           <li>
+            <Link href="/shop/grid">Co Living</Link>
+          </li>
+          {/* <li>
             <Link href="/shop/list">Property List</Link>
           </li>
           <li>
@@ -104,9 +109,9 @@ const MenuList = ({ addListing }) => {
           </li>
           <li>
             <Link href="/shop/right-sidebar">Property right sidebar</Link>
-          </li>
+          </li> */}
 
-          <li>
+          {/* <li>
             <Link href="#">
               Other Pages
               <span className="float-end">
@@ -136,33 +141,13 @@ const MenuList = ({ addListing }) => {
                 <Link href="/register">Register</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
         </ul>
       </li>
-      <li className="menu-icon">
-        <Link href="#">
-          News <FaPlus />
-        </Link>
-        <ul>
-          <li>
-            <Link href="/blog">News</Link>
-          </li>
-          <li>
-            <Link href="/blog/grid">News Grid</Link>
-          </li>
-          <li>
-            <Link href="/blog/left-sidebar">News Left sidebar</Link>
-          </li>
-          <li>
-            <Link href="/blog/right-sidebar">News Right sidebar</Link>
-          </li>
-        </ul>
-      </li>
+     
       <li className="menu-icon mega-menu-parent">
-        <Link href="#">
-          Pages <FaPlus />
-        </Link>
-        <ul className="mega-menu mega-menu column-4">
+      <Link href="/portfolio">Gallery</Link>
+        {/* <ul className="mega-menu mega-menu column-4">
           <li>
             <Link href="#">Inner Pages</Link>
             <ul>
@@ -234,17 +219,37 @@ const MenuList = ({ addListing }) => {
               <img src="/img/banner/menu-banner-1.jpg" alt="#" />
             </Link>
           </li>
-        </ul>
+        </ul> */}
+      </li>
+      <li className="menu-icon">
+        <Link href="/blog">
+          Blog
+           {/* <FaPlus /> */}
+        </Link>
+        {/* <ul>
+          <li>
+            <Link href="/blog">News</Link>
+          </li>
+          <li>
+            <Link href="/blog/grid">News Grid</Link>
+          </li>
+          <li>
+            <Link href="/blog/left-sidebar">News Left sidebar</Link>
+          </li>
+          <li>
+            <Link href="/blog/right-sidebar">News Right sidebar</Link>
+          </li>
+        </ul> */}
       </li>
       <li>
         <Link href="/contact">Contact</Link>
       </li>
 
-      {addListing ? (
+      {/* {addListing ? (
         <li className="special-link">
           <Link href="/add-listing">Add Listing</Link>
         </li>
-      ) : null}
+      ) : null} */}
     </ul>
   );
 };

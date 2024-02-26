@@ -225,7 +225,7 @@ function HomeVersionThree(props) {
                 headingClasses="section-subtitle-2"
                 titleSectionData={{
                   subTitle: "Area Properties",
-                  title: "Properties By Location",
+                  title: "Our PG's Gallery",
                 }}
               />
             </Col>
@@ -272,7 +272,7 @@ function HomeVersionThree(props) {
                 headingClasses="section-subtitle-2"
                 titleSectionData={{
                   subTitle: "Properties",
-                  title: "Featured Listings",
+                  title: "Explore Our Rooms",
                 }}
               />
             </Col>
