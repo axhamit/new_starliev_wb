@@ -41,7 +41,7 @@ function HeroSectionStyleFour() {
                           <FaHome />
                         </span>
 
-                        Real Estate Agency
+                        StarLive Co-living PG
                       </h6>
                       <h1 className="slide-title text-uppercase animated ">
                         Find Your Dream <br /> House By Us

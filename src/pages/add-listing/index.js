@@ -119,11 +119,11 @@ function AddListingPage() {
                               <div className="input-item ltn__custom-icon">
                                 <Form.Select className="nice-select">
                                   <option>Make A Selection</option>
-                                  <option value="1">New York</option>
+                                  <option value="1">Banashankari</option>
                                   <option value="2">South Carolina</option>
-                                  <option value="3">Los Angeles</option>
+                                  <option value="3">Hsr Layout</option>
                                   <option value="4">Florida</option>
-                                  <option value="5">New Jersey</option>
+                                  <option value="5">Koramangala</option>
                                 </Form.Select>
 
                               </div>
@@ -132,11 +132,11 @@ function AddListingPage() {
                               <div className="input-item ltn__custom-icon">
                                 <Form.Select className="nice-select">
                                   <option>Make A Selection</option>
-                                  <option value="1">New York</option>
+                                  <option value="1">Banashankari</option>
                                   <option value="2">South Carolina</option>
-                                  <option value="3">Los Angeles</option>
+                                  <option value="3">Hsr Layout</option>
                                   <option value="4">Florida</option>
-                                  <option value="5">New Jersey</option>
+                                  <option value="5">Koramangala</option>
                                 </Form.Select>
                               </div>
                             </Col>
@@ -144,11 +144,11 @@ function AddListingPage() {
                               <div className="input-item ltn__custom-icon">
                                 <Form.Select className="nice-select">
                                   <option>Make A Selection</option>
-                                  <option value="1">New York</option>
+                                  <option value="1">Banashankari</option>
                                   <option value="2">South Carolina</option>
-                                  <option value="3">Los Angeles</option>
+                                  <option value="3">Hsr Layout</option>
                                   <option value="4">Florida</option>
-                                  <option value="5">New Jersey</option>
+                                  <option value="5">Koramangala</option>
                                 </Form.Select>
                               </div>
                             </Col>
@@ -186,11 +186,11 @@ function AddListingPage() {
                               <div className="input-item ltn__custom-icon">
                                 <Form.Select className="nice-select">
                                   <option>Make A Selection</option>
-                                  <option value="1">New York</option>
+                                  <option value="1">Banashankari</option>
                                   <option value="2">South Carolina</option>
-                                  <option value="3">Los Angeles</option>
+                                  <option value="3">Hsr Layout</option>
                                   <option value="4">Florida</option>
-                                  <option value="5">New Jersey</option>
+                                  <option value="5">Koramangala</option>
                                 </Form.Select>
                               </div>
                             </Col>
@@ -470,7 +470,7 @@ function AddListingPage() {
                                 <input
                                   type="text"
                                   name="ltn__name"
-                                  placeholder="Year Built (*numeric)"
+                                  placeholder="Build level (*numeric)"
                                 />
                                 <span className="inline-icon">
                                   <FaPencilAlt />
@@ -553,11 +553,11 @@ function AddListingPage() {
                               <div className="input-item ltn__custom-icon">
                                 <Form.Select className="nice-select">
                                   <option>Make A Selection</option>
-                                  <option value="1">New York</option>
+                                  <option value="1">Banashankari</option>
                                   <option value="2">South Carolina</option>
-                                  <option value="3">Los Angeles</option>
+                                  <option value="3">Hsr Layout</option>
                                   <option value="4">Florida</option>
-                                  <option value="5">New Jersey</option>
+                                  <option value="5">Koramangala</option>
                                 </Form.Select>
                               </div>
                             </Col>
@@ -565,11 +565,11 @@ function AddListingPage() {
                               <div className="input-item ltn__custom-icon">
                                 <Form.Select className="nice-select">
                                   <option>Make A Selection</option>
-                                  <option value="1">New York</option>
+                                  <option value="1">Banashankari</option>
                                   <option value="2">South Carolina</option>
-                                  <option value="3">Los Angeles</option>
+                                  <option value="3">Hsr Layout</option>
                                   <option value="4">Florida</option>
-                                  <option value="5">New Jersey</option>
+                                  <option value="5">Koramangala</option>
                                 </Form.Select>
                               </div>
                             </Col>
@@ -591,11 +591,11 @@ function AddListingPage() {
                               <div className="input-item ltn__custom-icon">
                                 <Form.Select className="nice-select">
                                   <option>Make A Selection</option>
-                                  <option value="1">New York</option>
+                                  <option value="1">Banashankari</option>
                                   <option value="2">South Carolina</option>
-                                  <option value="3">Los Angeles</option>
+                                  <option value="3">Hsr Layout</option>
                                   <option value="4">Florida</option>
-                                  <option value="5">New Jersey</option>
+                                  <option value="5">Koramangala</option>
                                 </Form.Select>
                               </div>
                             </Col>

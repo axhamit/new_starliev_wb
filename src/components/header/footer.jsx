@@ -10,7 +10,7 @@ import {
   FaPaperPlane,
   FaEnvelope,
   FaMapMarkerAlt,
-  FaPhoneAlt
+  FaPhoneAlt,
 } from "react-icons/fa";
 
 const Footer = function () {
@@ -25,41 +25,46 @@ const Footer = function () {
                 <div className="footer-widget footer-about-widget">
                   <div className="footer-logo">
                     <div className="site-logo">
-                      <img src="/img/logo-2.png" alt="Logo" />
+                      <img src="" alt="Logo" />
                     </div>
                   </div>
                   <p>
-                    Lorem Ipsum is simply dummy text of the and typesetting
-                    industry. Lorem Ipsum is dummy text of the printing.
+                    Elevating Living Experiences: Your Trusted Partner in
+                    Co-living Comfort - StarLive PG
                   </p>
                   <div className="footer-address">
                     <ul>
                       <li>
                         <div className="footer-address-icon">
-                         <FaMapMarkerAlt/>
-                        </div>
-                        <div className="footer-address-info">
-                          <p>Brooklyn, New York, United States</p>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="footer-address-icon">
-                         <FaPhoneAlt/>
+                          <FaMapMarkerAlt />
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <Link href="tel:+0123-456789">+0123-456789</Link>
+                            96, 29th Main Rd, EWS Colony, BTM 2nd Stage, BTM
+                            Layout, Bengaluru, 560076
                           </p>
                         </div>
                       </li>
                       <li>
                         <div className="footer-address-icon">
-                         <FaEnvelope/>
+                          <FaPhoneAlt />
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <Link href="mailto:example@example.com">
-                              example@example.com
+                            <Link href="tel:+91 9019160966">
+                              +91 9019160966
+                            </Link>
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className="footer-address-icon">
+                          <FaEnvelope />
+                        </div>
+                        <div className="footer-address-info">
+                          <p>
+                            <Link href="mailto:info@starlives.co.in">
+                              info@starlives.co.in
                             </Link>
                           </p>
                         </div>

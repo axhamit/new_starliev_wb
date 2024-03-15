@@ -42,26 +42,29 @@ function AboutUsStyleOne({ sectionSpace }) {
                     About Us
                   </h6>
                   <h1 className="section-title">
-                    The Leading Real Estate Rental Marketplace<span>.</span>
+                    Welcome to StarLive: Your Premier Co-living Destination in
+                    Bangalore<span>!</span>
                   </h1>
                   <p>
-                    Over 39,000 people work for us in more than 70 countries all
-                    over the This breadth of global coverage, combined with
-                    specialist services
+                    Discover a new era of co-living experiences at StarLive, the
+                    leading real estate rental marketplace in Bangalore. As your
+                    trusted partner, we redefine modern living by offering a
+                    seamless platform dedicated to Paying Guest (PG)
+                    accommodations.
                   </p>
                 </div>
                 <ul className="ltn__list-item-half clearfix">
                   <li>
                     <i className="flaticon-home-2"></i>
-                    Smart Home Design
+                    Diverse Accommodations
                   </li>
                   <li>
                     <i className="flaticon-mountain"></i>
-                    Beautiful Scene Around
+                    Prime Bangalore Locations
                   </li>
                   <li>
                     <i className="flaticon-heart"></i>
-                    Exceptional Lifestyle
+                    Community-Centric Living
                   </li>
                   <li>
                     <i className="flaticon-secure"></i>

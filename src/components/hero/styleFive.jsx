@@ -24,7 +24,7 @@ function HeroSectionStyleFive() {
                             <div className="col-lg-12 align-self-center">
                                 <div className="slide-item-info">
                                     <div className="slide-item-info-inner ltn__slide-animation">
-                                        <h6 className="slide-sub-title white-color animated"><span><FaHome/></span> Real Estate Agency</h6>
+                                        <h6 className="slide-sub-title white-color animated"><span><FaHome/></span> StarLive Co-living PG</h6>
                                         <h1 className="slide-title text-uppercase white-color animated ">Find Your Dream <br/> House By Us</h1>
                                     </div>
                                 </div>

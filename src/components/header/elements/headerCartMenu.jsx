@@ -55,7 +55,7 @@ const HeaderCartMenu = function ({ cartMenuOpener, closeSideBar }) {
                         <Link href={`/shop/${slug}`}>{product.title}</Link>
                       </h6>
                       <span className="mini-cart-quantity">
-                        {product.quantity} x <span>$</span> {discountedPrice}
+                        {product.quantity} x <span>₹</span> {discountedPrice}
                       </span>
                     </div>
                   </div>
@@ -65,7 +65,7 @@ const HeaderCartMenu = function ({ cartMenuOpener, closeSideBar }) {
             <div className="mini-cart-footer">
               <div className="mini-cart-sub-total">
                 <h5>
-                  Subtotal: <span>${cartTotalPrice.toFixed(2)}</span>
+                  Subtotal: <span>₹{cartTotalPrice.toFixed(2)}</span>
                 </h5>
               </div>
               <div className="btn-wrapper">

@@ -27,7 +27,7 @@ const ProductItem = ({
   if (productData.rent) {
     badgeText = "For Rent";
   } else {
-    badgeText = "For Sale";
+    badgeText = "FOR RENT";
   }
 
   const dispatch = useDispatch();
@@ -107,7 +107,7 @@ const ProductItem = ({
         <div className="product-info">
           <div className="product-price">
             <span>
-              {`$ ${productData.price}`}
+              {`₹ ${productData.price}`}
               <label>/Month</label>
             </span>
           </div>

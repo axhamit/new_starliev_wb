@@ -99,7 +99,7 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo.png" alt="Logo" />
+                      <img src="" alt="Logo" />
                     </Link>
                   </div>
                 </div>
@@ -183,7 +183,7 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
                 <div className="sticky-logo">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo.png" alt="Logo" />
+                      <img src="" alt="Logo" />
                     </Link>
                   </div>
                 </div>

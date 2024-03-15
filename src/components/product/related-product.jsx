@@ -24,7 +24,7 @@ const RelatedProduct = ({
   if (productData.rent) {
     badgeText = "For Rent";
   } else {
-    badgeText = "For Sale";
+    badgeText = "FOR RENT";
   }
   const dispatch = useDispatch();
   const [modalShow, setModalShow] = useState(false);
@@ -149,7 +149,7 @@ const RelatedProduct = ({
         <div className="product-info-bottom">
           <div className="product-price">
             <span>
-              {`$ ${productData.price}`}
+              {`₹ ${productData.price}`}
               <label>/Month</label>
             </span>
           </div>

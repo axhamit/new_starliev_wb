@@ -29,8 +29,8 @@ const Contact = () => {
                 </div>
                 <h3>Email Address</h3>
                 <p>
-                  info@webmail.com <br />
-                  jobs@webexample.com
+                 info@starlives.co.in <br />
+                  www.starlive.com
                 </p>
               </div>
             </div>
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <h3>Phone Number</h3>
                 <p>
-                  +0123-456789 <br /> +987-6543210
+                  +91 9019160966 <br /> +91 9380930526
                 </p>
               </div>
             </div>
@@ -52,8 +52,8 @@ const Contact = () => {
                 </div>
                 <h3>Office Address</h3>
                 <p>
-                  18/A, New Born Town Hall <br />
-                  New York, US
+                  96, 29th Main Rd, EWS Colony, BTM 2nd Stage, BTM Layout, Bengaluru, 560076<br />
+                
                 </p>
               </div>
             </div>

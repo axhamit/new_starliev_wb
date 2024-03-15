@@ -70,11 +70,11 @@ function CarDealerSearchFormTwo() {
                             </span>
                             <Form.Select className="nice-select">
                               <option>Location</option>
-                              <option>chicago</option>
-                              <option>London</option>
-                              <option>Los Angeles</option>
-                              <option>New York</option>
-                              <option>New Jersey</option>
+                              <option>Btm</option>
+                              <option>Jayanagar</option>
+                              <option>Hsr Layout</option>
+                              <option>Banashankari</option>
+                              <option>Koramangala</option>
                             </Form.Select>
                           </Col>
                           <Col
@@ -193,11 +193,11 @@ function CarDealerSearchFormTwo() {
                             </span>
                             <Form.Select className="nice-select">
                               <option>Location</option>
-                              <option>chicago</option>
-                              <option>London</option>
-                              <option>Los Angeles</option>
-                              <option>New York</option>
-                              <option>New Jersey</option>
+                              <option>Btm</option>
+                              <option>Jayanagar</option>
+                              <option>Hsr Layout</option>
+                              <option>Banashankari</option>
+                              <option>Koramangala</option>
                             </Form.Select>
                           </Col>
                           <Col

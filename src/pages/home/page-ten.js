@@ -260,7 +260,7 @@ function HomeVersionTen(props) {
                     <Nav.Link eventKey="first">The Studio</Nav.Link>
                     <Nav.Link eventKey="second">Deluxe Portion</Nav.Link>
                     <Nav.Link eventKey="third">Penthouse</Nav.Link>
-                    <Nav.Link eventKey="fourth">Top Garden</Nav.Link>
+                    <Nav.Link eventKey="fourth">360 View</Nav.Link>
                     <Nav.Link eventKey="five"> Double Height</Nav.Link>
                   </Nav>
                 </div>
@@ -411,7 +411,7 @@ function HomeVersionTen(props) {
                       <Row>
                         <Col xs={12} lg={6}>
                           <div className="apartments-plan-info section-bg-1">
-                            <h2>Top Garden</h2>
+                            <h2>360 View</h2>
                             <p>
                               Enimad minim veniam quis nostrud exercitation
                               ullamco laboris. Lorem ipsum dolor sit amet cons

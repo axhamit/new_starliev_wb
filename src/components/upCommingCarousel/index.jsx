@@ -69,7 +69,7 @@ const UpCommingcarousel = () => {
                       2. Project Type: <span>Apartment / Home</span>
                     </li>
                     <li>
-                      3. Building Location: <span>New York, USA</span>
+                      3. Building Location: <span>Banashankari, USA</span>
                     </li>
                     <li>
                       4. No. Of Apartments: <span>568</span>
@@ -112,7 +112,7 @@ const UpCommingcarousel = () => {
                       2. Project Type: <span>Apartment / Home</span>
                     </li>
                     <li>
-                      3. Building Location: <span>New York, USA</span>
+                      3. Building Location: <span>Banashankari, USA</span>
                     </li>
                     <li>
                       4. No. Of Apartments: <span>568</span>
@@ -155,7 +155,7 @@ const UpCommingcarousel = () => {
                       2. Project Type: <span>Apartment / Home</span>
                     </li>
                     <li>
-                      3. Building Location: <span>New York, USA</span>
+                      3. Building Location: <span>Banashankari, USA</span>
                     </li>
                     <li>
                       4. No. Of Apartments: <span>568</span>

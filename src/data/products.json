@@ -7,9 +7,9 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Luxury villa in Rego Park",
+    "title": "single Room",
     "productImg": "1.jpg",
-    "price": 69,
+    "price": 24000,
     "priceRange": ["Low Budget"],
     "discount": 5,
     "country": true,
@@ -22,7 +22,7 @@
     "video": ["buying", "women"],
     "bedBath": ["Single", "renting", "selling"],
     "ratingCount": 5,
-    "rating": 3,
+    "rating": 4,
     "saleCount": 5,
     "category": ["buying", "renting"],
     "tag": [
@@ -41,22 +41,22 @@
       "Oil Change",
       "Body Color"
     ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Belmont Gardens, Chicago",
+    "date": "",
+    
+    "locantion": "Btm 2nd Stage Near Lake ",
     "description": {
       "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+      "fullDescription": "Discover a haven of well-being at Starlive PG. Our single rooms redefine solo living with health-centric amenities. Enjoy nutritious meals, thoughtfully designed interiors, and spacious rooms. Elevate your lifestyle at Starlive. Contact us to reserve your wellness-focused single room today!",
+      "shortDescription": "At Starlive, a single room transcends the ordinary, offering an immersive living experience where every facet is meticulously curated for your satisfaction. Elevate your lifestyle with a Starlive single room—reserve your exclusive space today and embark on a journey where comfort, wellness, and style converge in perfect harmony."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
-      "rooms": 7,
-      "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
+      "area": 1,
+      "propertyStatus": "FOR RENT",
+      "rooms": 1,
+      "bedrooms": 1,
+      "baths": 1,
+      "createdYear": "New Building"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -94,12 +94,12 @@
     "agent": {
       "firstName": "Rosalina D.",
       "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
-      "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
+      "fullName": "StarLive PG Accomadtion ",
+      "type": "",
+      "img": "starlive.png",
+      "designation": "Co-living/Male/Female",
       "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "description": "Discover the epitome of modern living at our premium Paying Guest accommodation. At Starlive, we redefine the PG experience, offering a perfect blend of comfort, convenience, and community. Our carefully curated living spaces are designed to cater to the needs of today's discerning individuals seeking a home away from home.",
       "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
     },
 
@@ -108,7 +108,7 @@
       "img2": "15.jpg",
       "img3": "16.jpg"
     },
-    "propertyTypes": ["House", "Office Villa", "Luxary Home"]
+    "propertyTypes": ["Luxury PG"]
   },
   {
     "id": "2",
@@ -118,9 +118,9 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "New Apartment Nice View",
+    "title": "Three Sharing",
     "productImg": "2.jpg",
-    "price": 159,
+    "price": 8420,
     "priceRange": ["Medium"],
     "discount": 5,
     "country": true,
@@ -219,9 +219,9 @@
         ]
       }
     ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Belmont Gardens",
+    "date": "",
+ 
+    "locantion": "2nd Stage",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -229,12 +229,12 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
+      "area": 1,
+      "propertyStatus": "FOR RENT",
       "rooms": 7,
       "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
+      "baths": 1,
+      "createdYear": "New Building"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -296,9 +296,9 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Citra Puri California Living",
+    "title": "Four Sharing",
     "productImg": "3.jpg",
-    "price": 49,
+    "price": 7,
     "priceRange": ["High Budget"],
     "discount": 15,
     "country": false,
@@ -330,9 +330,9 @@
       "Oil Change",
       "Body Color"
     ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Chicago",
+    "date": "",
+
+    "locantion": "Btm",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -340,12 +340,12 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
-      "rooms": 7,
-      "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
+      "area": 1,
+      "propertyStatus": "FOR RENT",
+      "rooms": 1,
+      "bedrooms": 1,
+      "baths": 1,
+      "createdYear": "New Building"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -407,9 +407,9 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Get Best Property On Our",
+    "title": "Two Sharing",
     "productImg": "4.jpg",
-    "price": 19,
+    "price": 12500,
     "priceRange": ["Medium"],
     "discount": 10,
     "country": false,
@@ -441,9 +441,9 @@
       "Oil Change",
       "Body Color"
     ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "New York",
+    "date": "",
+   
+    "locantion": "Banashankari",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -451,12 +451,12 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
+      "area": 1,
+      "propertyStatus": "FOR RENT",
       "rooms": 7,
       "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
+      "baths": 1,
+      "createdYear": "New Building"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -524,9 +524,9 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "New Apartment Nice View",
+    "title": "Three Sharing",
     "productImg": "5.jpg",
-    "price": 149,
+    "price": 8999,
     "priceRange": ["Low Budget"],
     "discount": 5,
     "country": true,
@@ -558,9 +558,9 @@
       "Oil Change",
       "Body Color"
     ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Chicago",
+    "date": "",
+
+    "locantion": "Btm",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -568,12 +568,12 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
+      "area": 1,
+      "propertyStatus": "FOR RENT",
       "rooms": 7,
       "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
+      "baths": 1,
+      "createdYear": "New Building"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -635,9 +635,9 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Citra Puri Los Angles Living",
+    "title": "Four Sharing",
     "productImg": "6.jpg",
-    "price": 215,
+    "price": 7999,
     "priceRange": ["Low"],
     "discount": 5,
     "country": true,
@@ -669,9 +669,9 @@
       "Oil Change",
       "Body Color"
     ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Chicago",
+    "date": "",
+
+    "locantion": "Btm",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -679,12 +679,12 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
+      "area": 1,
+      "propertyStatus": "FOR RENT",
       "rooms": 7,
       "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
+      "baths":1,
+      "createdYear": "New Building"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -746,9 +746,9 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Citra Puri Los Angles Living",
+    "title": "Four Sharing",
     "productImg": "1.jpg",
-    "price": 225,
+    "price": 7999,
     "priceRange": ["Low Budget", "Medium"],
     "discount": 5,
     "country": false,
@@ -780,9 +780,9 @@
       "Oil Change",
       "Body Color"
     ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Chicago",
+    "date": "",
+ 
+    "locantion": "Btm",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -790,12 +790,12 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
+      "area": 1,
+      "propertyStatus": "FOR RENT",
       "rooms": 7,
       "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
+      "baths":1,
+      "createdYear": "New Building"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -857,7 +857,7 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "New Apartment Nice View",
+    "title": "Three Sharing",
     "productImg": "2.jpg",
     "price": 500,
     "priceRange": ["Low Budget", "Medium"],
@@ -891,9 +891,9 @@
       "Oil Change",
       "Body Color"
     ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Chicago",
+    "date": "",
+   
+    "locantion": "Btm",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -901,12 +901,12 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
+      "area": 1,
+      "propertyStatus": "FOR RENT",
       "rooms": 7,
       "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
+      "baths": 1,
+      "createdYear": "New Building"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -968,7 +968,7 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Citra Puri Los Angles Living",
+    "title": "Four Sharing",
     "productImg": "4.jpg",
     "price": 270,
     "priceRange": ["Low Budget"],
@@ -1002,9 +1002,9 @@
       "Oil Change",
       "Body Color"
     ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Chicago",
+    "date": "",
+
+    "locantion": "Btm",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -1012,12 +1012,12 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
+      "area": 1,
+      "propertyStatus": "FOR RENT",
       "rooms": 7,
       "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
+      "baths": 1,
+      "createdYear": "New Building"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
