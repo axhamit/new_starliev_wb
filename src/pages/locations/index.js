@@ -52,11 +52,11 @@ function Locations() {
                     <div className="input-item">
                       <Form.Select className="nice-select">
                         <option>Make A Selection</option>
-                        <option value="1">New York</option>
+                        <option value="1">Banashankari</option>
                         <option value="2">South Carolina</option>
-                        <option value="3">Los Angeles</option>
+                        <option value="3">Hsr Layout</option>
                         <option value="4">Florida</option>
-                        <option value="5">New Jersey</option>
+                        <option value="5">Koramangala</option>
                       </Form.Select>
                     </div>
                   </form>
@@ -69,7 +69,7 @@ function Locations() {
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />
@@ -106,7 +106,7 @@ function Locations() {
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />
@@ -143,7 +143,7 @@ function Locations() {
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />
@@ -180,7 +180,7 @@ function Locations() {
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />
@@ -217,7 +217,7 @@ function Locations() {
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />
@@ -254,7 +254,7 @@ function Locations() {
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />
@@ -297,7 +297,7 @@ function Locations() {
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />
@@ -334,7 +334,7 @@ function Locations() {
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />
@@ -371,7 +371,7 @@ function Locations() {
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />
@@ -409,12 +409,12 @@ function Locations() {
 
               <Col xs={12}>
                 <div className="ltn__state-location">
-                  <h2 className="ltn__state-location-title">New York</h2>
+                  <h2 className="ltn__state-location-title">Banashankari</h2>
                 </div>
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />
@@ -451,7 +451,7 @@ function Locations() {
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />
@@ -488,7 +488,7 @@ function Locations() {
               </Col>
               <Col xs={12} lg={4}>
                 <div className="ltn__map-item">
-                  <h3 className="ltn__location-name">Boston, New York</h3>
+                  <h3 className="ltn__location-name">Boston, Banashankari</h3>
                   <h5 className="ltn__location-single-info">
                     <span className="me-2">
                       <FaMapMarkedAlt />

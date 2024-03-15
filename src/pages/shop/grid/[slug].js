@@ -266,7 +266,7 @@ function ProductDetails({ product }) {
                   <p>{product.description.fullDescription}</p>
                   <p>{product.description.shortDescription}</p>
 
-                  <h4 className="title-2">Property Detail</h4>
+                  <h4 className="title-2">Room Detail</h4>
                   <div className="property-detail-info-list section-bg-1 clearfix mb-60">
                     <ul>
                       <li>
@@ -274,7 +274,7 @@ function ProductDetails({ product }) {
                         <span>{product.propertyDetails.propertyId}</span>
                       </li>
                       <li>
-                        <label>Home Area: </label>{" "}
+                        <label>Room Area: </label>{" "}
                         <span>{product.propertyDetails.area} sqft</span>
                       </li>
                       <li>
@@ -286,7 +286,7 @@ function ProductDetails({ product }) {
                         <span>{product.propertyDetails.baths}</span>
                       </li>
                       <li>
-                        <label>Year built:</label>{" "}
+                        <label>Build level:</label>{" "}
                         <span>{product.propertyDetails.createdYear}</span>
                       </li>
                     </ul>
@@ -509,17 +509,17 @@ function ProductDetails({ product }) {
                     ></iframe>
                   </div>
 
-                  <h4 className="title-2">Floor Plans</h4>
+                  <h4 className="title-2">Room View</h4>
                   {/* <!-- APARTMENTS PLAN AREA START --> */}
 
                   <div className="ltn__apartments-plan-area product-details-apartments-plan mb-60">
                     <Tab.Container defaultActiveKey="first">
                       <div className="ltn__tab-menu ltn__tab-menu-3">
                         <Nav className="nav">
-                          <Nav.Link eventKey="first">First Floor</Nav.Link>
-                          <Nav.Link eventKey="second">Second Floor</Nav.Link>
-                          <Nav.Link eventKey="third">Third Floor</Nav.Link>
-                          <Nav.Link eventKey="fourth">Top Garden</Nav.Link>
+                          <Nav.Link eventKey="first">Right Angle</Nav.Link>
+                          <Nav.Link eventKey="second">Left Angle</Nav.Link>
+                          <Nav.Link eventKey="third">Window View</Nav.Link>
+                          <Nav.Link eventKey="fourth">360 View</Nav.Link>
                         </Nav>
                       </div>
                       <Tab.Content>
@@ -533,7 +533,7 @@ function ProductDetails({ product }) {
                               </div>
                               <div className="col-lg-5">
                                 <div className="apartments-plan-info">
-                                  <h2>First Floor</h2>
+                                  <h2>Right Angle</h2>
                                   <p>
                                     Enimad minim veniam quis nostrud
                                     exercitation ullamco laboris. Lorem ipsum
@@ -590,7 +590,7 @@ function ProductDetails({ product }) {
                               </div>
                               <div className="col-lg-5">
                                 <div className="apartments-plan-info">
-                                  <h2>Second Floor</h2>
+                                  <h2>Left Angle</h2>
                                   <p>
                                     Enimad minim veniam quis nostrud
                                     exercitation ullamco laboris. Lorem ipsum
@@ -647,7 +647,7 @@ function ProductDetails({ product }) {
                               </div>
                               <div className="col-lg-5">
                                 <div className="apartments-plan-info">
-                                  <h2>Third Floor</h2>
+                                  <h2>Window View</h2>
                                   <p>
                                     Enimad minim veniam quis nostrud
                                     exercitation ullamco laboris. Lorem ipsum
@@ -704,7 +704,7 @@ function ProductDetails({ product }) {
                               </div>
                               <div className="col-lg-5">
                                 <div className="apartments-plan-info">
-                                  <h2>Top Garden</h2>
+                                  <h2>360 View</h2>
                                   <p>
                                     Enimad minim veniam quis nostrud
                                     exercitation ullamco laboris. Lorem ipsum
@@ -1333,7 +1333,7 @@ function ProductDetails({ product }) {
                             <div className="product-info">
                               <div className="product-price">
                                 <span>
-                                  ${product.price}
+                                ₹{product.price}
                                   <label>/Month</label>
                                 </span>
                               </div>
@@ -1441,8 +1441,8 @@ function ProductDetails({ product }) {
               <div className="col-lg-12">
                 <div className="call-to-action-inner call-to-action-inner-6 ltn__secondary-bg position-relative text-center---">
                   <div className="coll-to-info text-color-white">
-                    <h1>Looking for a dream home?</h1>
-                    <p>We can help you realize your dream of a new home</p>
+                    <h1>Searching for the Perfect PG Haven?</h1>
+                    <p>Transforming your co-living aspirations into a reality with StarLive PG.</p>
                   </div>
                   <div className="btn-wrapper">
                     <Link

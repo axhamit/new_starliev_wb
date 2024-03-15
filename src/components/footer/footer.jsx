@@ -26,12 +26,12 @@ const Footer = function () {
                   <div className="footer-logo">
                     <div className="site-logo">
                       {/* <img src="/img/logo.png" alt="Logo" /> */}
-                      <img src="/img/logo-2.png" alt="Logo" />
+                      <img src="" alt="Logo" />
                     </div>
                   </div>
                   <p>
-                    Lorem Ipsum is simply dummy text of the and typesetting
-                    industry. Lorem Ipsum is dummy text of the printing.
+                    Elevating Living Experiences: Your Trusted Partner in
+                    Co-living Comfort - StarLive PG
                   </p>
                   <div className="footer-address">
                     <ul>
@@ -40,7 +40,10 @@ const Footer = function () {
                           <FaMapMarkerAlt />
                         </div>
                         <div className="footer-address-info">
-                          <p>Brooklyn, New York, United States</p>
+                          <p>
+                            96, 29th Main Rd, EWS Colony, BTM 2nd Stage, BTM
+                            Layout, Bengaluru, 560076
+                          </p>
                         </div>
                       </li>
                       <li>
@@ -49,7 +52,9 @@ const Footer = function () {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <Link href="tel:+0123-456789">+0123-456789</Link>
+                            <Link href="tel:+91 9019160966">
+                              +91 9019160966
+                            </Link>
                           </p>
                         </div>
                       </li>
@@ -59,8 +64,8 @@ const Footer = function () {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <Link href="mailto:example@example.com">
-                              example@example.com
+                            <Link href="mailto:info@starlives.co.in">
+                              info@starlives.co.in
                             </Link>
                           </p>
                         </div>
@@ -205,7 +210,7 @@ const Footer = function () {
               <Col xs={12} md={6}>
                 <div className="ltn__copyright-design clearfix">
                   <p>
-                    All Rights Reserved @ Company{" "}
+                    All Rights Reserved @starlive Accomadation{" "}
                     <span className="current-year"></span>
                   </p>
                 </div>

@@ -148,7 +148,7 @@ function MyAccount() {
                                           </div>
                                           <div className="footer-address-info">
                                             <p>
-                                              Brooklyn, New York, United States
+                                              96, 29th Main Rd, EWS Colony, BTM 2nd Stage, BTM Layout, Bengaluru, 560076
                                             </p>
                                           </div>
                                         </li>
@@ -158,8 +158,8 @@ function MyAccount() {
                                           </div>
                                           <div className="footer-address-info">
                                             <p>
-                                              <Link href="tel:+0123-456789">
-                                                +0123-456789
+                                              <Link href="tel:+91 9019160966">
+                                                +91 9019160966
                                               </Link>
                                             </p>
                                           </div>
@@ -170,8 +170,8 @@ function MyAccount() {
                                           </div>
                                           <div className="footer-address-info">
                                             <p>
-                                              <Link href="mailto:example@example.com">
-                                                example@example.com
+                                              <Link href="mailto:info@starlives.co.in">
+                                                info@starlives.co.in
                                               </Link>
                                             </p>
                                           </div>
@@ -347,7 +347,7 @@ function MyAccount() {
                                       <input
                                         type="email"
                                         name="ltn__lastname"
-                                        placeholder="example@example.com"
+                                        placeholder="info@starlives.co.in"
                                       />
                                     </Col>
                                   </div>
@@ -423,7 +423,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                            Brooklyn, New York, United States
+                                            96, 29th Main Rd, EWS Colony, BTM 2nd Stage, BTM Layout, Bengaluru, 560076
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -499,7 +499,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                            Brooklyn, New York, United States
+                                            96, 29th Main Rd, EWS Colony, BTM 2nd Stage, BTM Layout, Bengaluru, 560076
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -575,7 +575,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                            Brooklyn, New York, United States
+                                            96, 29th Main Rd, EWS Colony, BTM 2nd Stage, BTM Layout, Bengaluru, 560076
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -701,7 +701,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                            Brooklyn, New York, United States
+                                            96, 29th Main Rd, EWS Colony, BTM 2nd Stage, BTM Layout, Bengaluru, 560076
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -777,7 +777,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                            Brooklyn, New York, United States
+                                            96, 29th Main Rd, EWS Colony, BTM 2nd Stage, BTM Layout, Bengaluru, 560076
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -853,7 +853,7 @@ function MyAccount() {
                                           </h6>
                                           <small>
                                             <i className="icon-placeholder"></i>
-                                            Brooklyn, New York, United States
+                                            96, 29th Main Rd, EWS Colony, BTM 2nd Stage, BTM Layout, Bengaluru, 560076
                                           </small>
                                           <div className="product-ratting">
                                             <ul>
@@ -980,7 +980,7 @@ function MyAccount() {
                                     <input
                                       type="text"
                                       name="ltn__name"
-                                      placeholder="Price in $ (only numbers)"
+                                      placeholder="Price in ₹ (only numbers)"
                                     />
                                     <span className="inline-icon">
                                       <FaPencilAlt />
@@ -1076,7 +1076,7 @@ function MyAccount() {
                                       <option>Active</option>
                                       <option>hot offer</option>
                                       <option>new offer</option>
-                                      <option>open house</option>
+                                      <option>Deluxe</option>
                                       <option>sold</option>
                                     </select>
                                     <span className="inline-icon">
@@ -1362,7 +1362,7 @@ function MyAccount() {
                                     <input
                                       type="text"
                                       name="ltn__name"
-                                      placeholder="Year Built (*numeric)"
+                                      placeholder="Build level (*numeric)"
                                     />
                                     <span className="inline-icon">
                                       <FaPencilAlt />

@@ -91,7 +91,7 @@ const QuickViewModal = ({
                   </h3>
                   <div className="product-price">
                     <div>
-                      <span>${discountedprice}</span>
+                      <span>₹{discountedprice}</span>
                       <del>{productprice}</del>
                       <span className="on-sale">
                         {productData.discount} % Off

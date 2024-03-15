@@ -66,13 +66,13 @@ function HeroSectionStyleThree({ data }) {
             return (
               <div key={key}>
                 <div
-                className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3 bg-image bg-overlay-theme-black-60"
+                className="ltn__slide-item  ltn__slide-item-2 ltn__slide-item-3 bg-image bg-overlay-theme-black-60"
                   style={{
-                    backgroundImage: `url("../img/slider/${item.bgImage}")`,
+                    backgroundImage: `url("../img/slider/${item.bgImage}")`, 
                   }}
                 >
                   <div
-                    className={`ltn__slide-item-inner ${
+                    className={`ltn__slide-item-inner text-blue-400 ${
                       item.variationRight
                         ? "text-right text-end"
                         : item.variationCenter

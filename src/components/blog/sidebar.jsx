@@ -189,8 +189,8 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
                         <Link href={`/shop/${slug}`}>{product.title}</Link>
                       </h6>
                       <div className="product-price">
-                        <span>${product.price}</span>
-                        <del>${discountedPrice}</del>
+                        <span>₹{product.price}</span>
+                        <del>₹{discountedPrice}</del>
                       </div>
                     </div>
                   </div>
@@ -269,7 +269,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
                   <div className="product-info">
                     <div className="product-price">
                       <span>
-                        ${product.price}
+                      ₹{product.price}
                         <label>/Month</label>
                       </span>
                     </div>
