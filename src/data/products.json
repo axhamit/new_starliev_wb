@@ -2,19 +2,19 @@
   {
     "id": "1",
     "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
+      { "img": "ss_slider.webp" },
+      { "img": "ss_slide3.webp" },
+      { "img": "ss_slider.webp" },
+      { "img": "ss_slide4.webp" }
     ],
     "title": "single Room",
-    "productImg": "1.jpg",
+    "productImg": "single-share.webp",
     "price": 24000,
     "priceRange": ["Low Budget"],
     "discount": 5,
     "country": true,
-    "district": "Mission District Area",
-    "properties": 2,
+    "district": "Single Share",
+    "properties": 6,
     "featured": true,
     "new": true,
     "rent": false,
@@ -90,10 +90,10 @@
       "24x7 Security",
       "Indoor Game"
     ],
-    "AmenitiesList": ["Dishwasher"],
+    "AmenitiesList": [""],
     "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
+      "firstName": "StarLive ",
+      "lastName": "Co-living PG",
       "fullName": "StarLive PG Accomadtion ",
       "type": "",
       "img": "starlive.png",
@@ -119,12 +119,12 @@
       { "img": "33.jpg" }
     ],
     "title": "Three Sharing",
-    "productImg": "2.jpg",
+    "productImg": "three_share.webp",
     "price": 8420,
     "priceRange": ["Medium"],
     "discount": 5,
     "country": true,
-    "district": "Pacific Heights Area",
+    "district": "Three Sharing",
     "properties": 2,
     "featured": false,
     "new": false,
@@ -221,7 +221,7 @@
     ],
     "date": "",
  
-    "locantion": "2nd Stage",
+    "locantion": "Btm 2nd Stage Near Lake ",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -270,14 +270,14 @@
     ],
     "AmenitiesList": ["Kids Zone"],
     "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
+      "firstName": "StarLive ",
+      "lastName": "Co-living PG",
+      "fullName": "StarLive PG Accomadtion ",
       "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
+      "img": "starlive.png",
+      "designation": "",
       "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "description": "Discover the epitome of modern living at our premium Paying Guest accommodation. At Starlive, we redefine the PG experience, offering a perfect blend of comfort, convenience, and community. Our carefully curated living spaces are designed to cater to the needs of today's discerning individuals seeking a home away from home.",
       "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
     },
 
@@ -297,7 +297,7 @@
       { "img": "33.jpg" }
     ],
     "title": "Four Sharing",
-    "productImg": "3.jpg",
+    "productImg": "four_share.webp",
     "price": 7,
     "priceRange": ["High Budget"],
     "discount": 15,
@@ -332,7 +332,7 @@
     ],
     "date": "",
 
-    "locantion": "Btm",
+    "locantion": "Btm 2nd Stage Near Lake ",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -381,14 +381,14 @@
     ],
     "AmenitiesList": ["Floor Coverings"],
     "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
+      "firstName": "StarLive ",
+      "lastName": "Co-living PG",
+      "fullName": "StarLive PG Accomadtion ",
       "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
+      "img": "starlive.png",
+      "designation": "",
       "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "description": "Discover the epitome of modern living at our premium Paying Guest accommodation. At Starlive, we redefine the PG experience, offering a perfect blend of comfort, convenience, and community. Our carefully curated living spaces are designed to cater to the needs of today's discerning individuals seeking a home away from home.      ",
       "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
     },
 
@@ -408,12 +408,12 @@
       { "img": "33.jpg" }
     ],
     "title": "Two Sharing",
-    "productImg": "4.jpg",
+    "productImg": "two_share.webp",
     "price": 12500,
     "priceRange": ["Medium"],
     "discount": 10,
     "country": false,
-    "district": "Mission District Area",
+    "district": "Two Sharing",
     "properties": 1,
     "featured": true,
     "new": false,
@@ -443,7 +443,7 @@
     ],
     "date": "",
    
-    "locantion": "Banashankari",
+    "locantion": "Btm 2nd Stage Near Lake ",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -454,7 +454,7 @@
       "area": 1,
       "propertyStatus": "FOR RENT",
       "rooms": 7,
-      "bedrooms": 3,
+     
       "baths": 1,
       "createdYear": "New Building"
     },
@@ -492,14 +492,14 @@
     ],
     "AmenitiesList": ["Floor Coverings"],
     "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
+      "firstName": "StarLive ",
+      "lastName": "Co-living PG",
+      "fullName": "StarLive PG Accomadtion ",
       "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
+      "img": "starlive.png",
+      "designation": "",
       "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "description": "Discover the epitome of modern living at our premium Paying Guest accommodation. At Starlive, we redefine the PG experience, offering a perfect blend of comfort, convenience, and community. Our carefully curated living spaces are designed to cater to the needs of today's discerning individuals seeking a home away from home.",
       "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
     },
 
@@ -525,12 +525,12 @@
       { "img": "33.jpg" }
     ],
     "title": "Three Sharing",
-    "productImg": "5.jpg",
+    "productImg": "three_share.webp",
     "price": 8999,
     "priceRange": ["Low Budget"],
     "discount": 5,
     "country": true,
-    "district": "Mission District Area",
+    "district": "Three Sharing",
     "properties": 2,
     "featured": true,
     "new": true,
@@ -560,7 +560,7 @@
     ],
     "date": "",
 
-    "locantion": "Btm",
+    "locantion": "Btm 2nd Stage Near Lake ",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -609,14 +609,14 @@
     ],
     "AmenitiesList": ["Supermarket"],
     "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
+      "firstName": "StarLive ",
+      "lastName": "Co-living PG",
+      "fullName": "StarLive PG Accomadtion ",
       "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
+      "img": "starlive.png",
+      "designation": "",
       "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "description": "Discover the epitome of modern living at our premium Paying Guest accommodation. At Starlive, we redefine the PG experience, offering a perfect blend of comfort, convenience, and community. Our carefully curated living spaces are designed to cater to the needs of today's discerning individuals seeking a home away from home.",
       "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
     },
 
@@ -627,6 +627,7 @@
     },
     "propertyTypes": ["House", "Single Family", "Apartment", "Office Villa"]
   },
+ 
   {
     "id": "6",
     "carousel": [
@@ -636,123 +637,12 @@
       { "img": "33.jpg" }
     ],
     "title": "Four Sharing",
-    "productImg": "6.jpg",
-    "price": 7999,
-    "priceRange": ["Low"],
-    "discount": 5,
-    "country": true,
-    "district": "Mission District Area",
-    "properties": 2,
-    "featured": true,
-    "new": false,
-    "rent": true,
-    "photo": ["buying", "women", "women"],
-    "video": ["buying", "women"],
-    "bedBath": ["Single", "renting", "selling"],
-    "ratingCount": 2,
-    "rating": 3,
-    "saleCount": 25,
-    "category": ["buying", "selling", "renting"],
-    "tag": [
-      "Popular",
-      "desgin",
-      "ux",
-      "usability",
-      "develop",
-      "icon",
-      "Car",
-      "Service",
-      "Repairs",
-      "Auto Parts",
-      "Oil",
-      "Dealer",
-      "Oil Change",
-      "Body Color"
-    ],
-    "date": "",
-
-    "locantion": "Btm",
-    "description": {
-      "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
-    },
-    "propertyDetails": {
-      "propertyId": "HZ29",
-      "area": 1,
-      "propertyStatus": "FOR RENT",
-      "rooms": 7,
-      "bedrooms": 3,
-      "baths":1,
-      "createdYear": "New Building"
-    },
-    "factsAndFeatures": {
-      "livingRoom": "20 x 16 sq feet",
-      "garage": "20 x 16 sq feet",
-      "diningArea": "20 x 16 sq feet",
-      "bedroom": "20 x 16 sq feet",
-      "bathroom": "20 x 16 sq feet",
-      "gymArea": "20 x 16 sq feet",
-      "garden": "20 x 16 sq feet",
-      "parking": "20 x 16 sq feet"
-    },
-
-    "amenities1": [
-      "Air Conditioning",
-      "Gym",
-      "Microwave",
-      "Swimming Pool",
-      "WiFi"
-    ],
-    "amenities2": [
-      "Barbeque",
-      "Recreation",
-      "Microwave",
-      "Basketball Cout",
-      "Fireplace"
-    ],
-    "amenities3": [
-      "Refrigerator",
-      "Window Coverings",
-      "Washer",
-      "24x7 Security",
-      "Indoor Game"
-    ],
-    "AmenitiesList": ["Kids Zone"],
-    "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
-      "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
-      "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
-      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
-    },
-
-    "gallery": {
-      "img1": "14.jpg",
-      "img2": "15.jpg",
-      "img3": "16.jpg"
-    },
-    "propertyTypes": ["House", "Single Family", "Apartment", "Office Villa"]
-  },
-  {
-    "id": "7",
-    "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
-    ],
-    "title": "Four Sharing",
-    "productImg": "1.jpg",
+    "productImg": "four_share.webp",
     "price": 7999,
     "priceRange": ["Low Budget", "Medium"],
     "discount": 5,
     "country": false,
-    "district": "Mission District Area",
+    "district": "Four Sharing",
     "properties": 2,
     "featured": true,
     "new": true,
@@ -782,7 +672,7 @@
     ],
     "date": "",
  
-    "locantion": "Btm",
+    "locantion": "Btm 2nd Stage Near Lake ",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -831,14 +721,14 @@
     ],
     "AmenitiesList": ["Supermarket"],
     "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
+      "firstName": "StarLive ",
+      "lastName": "Co-living PG",
+      "fullName": "StarLive PG Accomadtion ",
       "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
+      "img": "starlive.png",
+      "designation": "",
       "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "description": "Discover the epitome of modern living at our premium Paying Guest accommodation. At Starlive, we redefine the PG experience, offering a perfect blend of comfort, convenience, and community. Our carefully curated living spaces are designed to cater to the needs of today's discerning individuals seeking a home away from home.",
       "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
     },
 
@@ -858,12 +748,12 @@
       { "img": "33.jpg" }
     ],
     "title": "Three Sharing",
-    "productImg": "2.jpg",
+    "productImg": "three_share.webp",
     "price": 500,
     "priceRange": ["Low Budget", "Medium"],
     "discount": 5,
     "country": false,
-    "district": "Mission District Area",
+    "district": "Three Sharing",
     "properties": 2,
     "featured": false,
     "new": true,
@@ -893,7 +783,7 @@
     ],
     "date": "",
    
-    "locantion": "Btm",
+    "locantion": "Btm 2nd Stage Near Lake ",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -946,10 +836,10 @@
       "lastName": "Willaimson",
       "fullName": "Rosalina D. Willaimson",
       "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
+      "img": "starlive.png",
+      "designation": "",
       "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "description": "Discover the epitome of modern living at our premium Paying Guest accommodation. At Starlive, we redefine the PG experience, offering a perfect blend of comfort, convenience, and community. Our carefully curated living spaces are designed to cater to the needs of today's discerning individuals seeking a home away from home.",
       "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
     },
 
@@ -969,13 +859,13 @@
       { "img": "33.jpg" }
     ],
     "title": "Four Sharing",
-    "productImg": "4.jpg",
+    "productImg": "four_share.webp",
     "price": 270,
     "priceRange": ["Low Budget"],
     "discount": 5,
     "country": true,
-    "district": "Mission District Area",
-    "properties": 2,
+    "district": "Four Sharing",
+    "properties": 10,
     "featured": false,
     "new": true,
     "rent": false,
@@ -1004,7 +894,7 @@
     ],
     "date": "",
 
-    "locantion": "Btm",
+    "locantion": "Btm 2nd Stage Near Lake ",
     "description": {
       "title": "Description",
       "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
@@ -1057,10 +947,10 @@
       "lastName": "Willaimson",
       "fullName": "Rosalina D. Willaimson",
       "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
+      "img": "starlive.png",
+      "designation": "",
       "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "description": "Discover the epitome of modern living at our premium Paying Guest accommodation. At Starlive, we redefine the PG experience, offering a perfect blend of comfort, convenience, and community. Our carefully curated living spaces are designed to cater to the needs of today's discerning individuals seeking a home away from home.",
       "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
     },
 

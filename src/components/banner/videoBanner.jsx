@@ -10,12 +10,12 @@ const VideoBanner = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="X7R-q9rsrtU"
+        videoId="ZQKNEKBGDeU?si=U9C26Hwmv2ludYpL"
         onClose={() => setOpen(false)}
       />
       <div
         className="ltn__video-bg-img bg-overlay-black-30 bg-image bg-fixed ltn__animation-pulse1"
-        style={{ backgroundImage: `url("../img/bg/19.jpg")` }}
+        style={{ backgroundImage: `url("../img/bg/starlive.webp")` }}
       >
         <button onClick={() => setOpen(true)} className="ltn__video-icon-2">
           <FaPlay />
