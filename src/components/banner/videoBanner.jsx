@@ -1,16 +1,18 @@
 import { FaPlay } from "react-icons/fa";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
+import 'react-modal-video/css/modal-video.min.css'; // Ensure this is imported
 
 const VideoBanner = () => {
   const [isOpen, setOpen] = useState(false);
+
   return (
     <>
       <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="ZQKNEKBGDeU?si=U9C26Hwmv2ludYpL"
+        videoId="ZQKNEKBGDeU" // Removed extra parameters
         onClose={() => setOpen(false)}
       />
       <div
