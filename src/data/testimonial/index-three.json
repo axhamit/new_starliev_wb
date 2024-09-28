@@ -1,30 +1,30 @@
 [
   {
     "id": "5",
-    "name": "Jacob William",
-    "type": "Manager",
-    "img": "1.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  ullamco laboris nisi ut aliquip ex ea commodo."
+    "name": "J K Sachin",
+    "type": "Google Review",
+    "img": "bMan.png",
+    "description": "I've had a fantastic experience at Star Live PG. The accommodations are top-notch, with clean and well-maintained rooms that offer great comfort. The staff are friendly, approachable, and always ready to help with any needs or queries. The atmosphere is lively yet relaxed, making it an ideal place for both study and leisure. Highly recommend Star Live PG for anyone looking for a reliable and enjoyable living option."
   },
   {
     "id": "2",
-    "name": "Ethan James",
-    "type": "Admin",
-    "img": "2.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  ullamco laboris nisi ut aliquip ex ea commodo."
+    "name": "Milan Gawande",
+    "type": "Google Review",
+    "img": "bMan1.png",
+    "description": "Staying here from past 2 months. This PG is the best among all options nearby. Rooms are neat and clean also they are well furnished. The quality of food they offer is also good in comparison of other PG.Also the owner is very polite and humble.Overall you can choose this one for staying ⚡️"
   },
   {
     "id": "3",
-    "name": "Noah Alexander",
-    "type": "Professor",
-    "img": "3.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  ullamco laboris nisi ut aliquip ex ea commodo."
+    "name": "Rufaid Muhammed",
+    "type": "Google Review",
+    "img": "bMan3.png",
+    "description": "Having stayed here for two months, I can confidently say this PG is the best around. The rooms are clean, well-furnished, and the food is delicious. The owner is polite and accommodating, making it a great choice for anyone looking for a hassle-free stay in Bangalore."
   },
   {
     "id": "4",
-    "name": "Liam Mason",
-    "type": "Officer",
-    "img": "4.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud  ullamco laboris nisi ut aliquip ex ea commodo."
+    "name": "Saurabh Dutta",
+    "type": "Google Review",
+    "img": "bMan4.png",
+    "description": "Best Food I had in any pg in Bangalore, Best Lodging, Best Cleanliness. You will get customized food and best in class variety - South/North Indian, as food is an issue in any PG, this is the go to place if you are looking for home away from home. To top it, you will find the best owner which is also a rarity in Bangalore."
   }
 ]

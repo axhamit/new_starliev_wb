@@ -10,16 +10,23 @@ import {
   FaFacebookF,
   FaCalendarAlt,
 } from "react-icons/fa";
-import { productSlug, getDiscountPrice } from "@/lib/product";
-import FollowUs from "@/components/followUs";
-import Tags from "@/components/tags";
+import { productSlug, getDiscountPrice } from "@/lib/product"; // Ensure these functions exist
+import FollowUs from "@/components/followUs"; // Ensure FollowUs is correctly exported
+import Tags from "@/components/tags"; // Ensure Tags is correctly exported
 
 const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
+  // Add a fallback in case popularProducts is undefined or empty
+  if (!popularProducts || popularProducts.length === 0) {
+    return <p>No popular products available.</p>;
+  }
+
+  // Access the first product safely
   const product = popularProducts[0];
-  const discountedPrice = getDiscountPrice(
-    product.price,
-    product.discount
-  ).toFixed(2);
+
+  // Check if product has price and discount properties
+  const discountedPrice = product.price && product.discount
+    ? getDiscountPrice(product.price, product.discount).toFixed(2)
+    : null;
 
   const popular_product = {
     infinite: true,
@@ -32,7 +39,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
   return (
     <>
       <aside className="sidebar-area blog-sidebar">
-        {/* <!-- Author Widget --> */}
+        {/* Author Widget */}
         <div className="widget ltn__author-widget">
           <div className="ltn__author-widget-inner text-center">
             <img
@@ -88,13 +95,12 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" title="Linkedin">
+                  <Link href="#" title="Instagram">
                     <FaInstagram />
                   </Link>
                 </li>
-
                 <li>
-                  <Link href="#" title="Youtube">
+                  <Link href="#" title="Dribbble">
                     <FaDribbble />
                   </Link>
                 </li>
@@ -102,7 +108,8 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
             </div>
           </div>
         </div>
-        {/* <!-- Search Widget --> */}
+
+        {/* Search Widget */}
         <div className="widget ltn__search-widget">
           <h4 className="ltn__widget-title ltn__widget-title-border-2">
             Search Objects
@@ -118,10 +125,11 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
             </button>
           </form>
         </div>
-        {/* <!-- Form Widget --> */}
+
+        {/* Form Widget */}
         <div className="widget ltn__form-widget">
           <h4 className="ltn__widget-title ltn__widget-title-border-2">
-            Drop Messege For Book
+            Drop Message For Book
           </h4>
           <form action="#">
             <input type="text" name="yourname" placeholder="Your Name*" />
@@ -131,26 +139,26 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
               placeholder="Write Message..."
             ></textarea>
             <button type="submit" className="btn theme-btn-1">
-              Send Messege
+              Send Message
             </button>
           </form>
         </div>
-        {/* <!-- Top Rated Product Widget --> */}
+
+        {/* Top Rated Product Widget */}
         <div className="widget ltn__top-rated-product-widget">
           <h4 className="ltn__widget-title ltn__widget-title-border-2">
             Top Rated Product
           </h4>
           <ul>
-            {topRatedProducts.map((product, keys) => {
+            {topRatedProducts.map((product, key) => {
               const slug = productSlug(product.title);
-              let key = keys + 1;
               return (
                 <li key={product.id}>
                   <div className="top-rated-product-item clearfix">
                     <div className="top-rated-product-img">
                       <Link href={`/shop/${slug}`}>
                         <img
-                          src={`/img/product/${key}.png`}
+                          src={`/img/product/${key + 1}.png`}
                           alt={product.title}
                         />
                       </Link>
@@ -199,40 +207,8 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
             })}
           </ul>
         </div>
-        {/* <!-- Menu Widget (Category) --> */}
-        <div className="widget ltn__menu-widget">
-          <h4 className="ltn__widget-title ltn__widget-title-border-2">
-            Top Categories
-          </h4>
-          <ul>
-            <li>
-              <Link href="#">
-                Apartments <span>(26)</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                Picture Stodio <span>(30)</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                Office <span>(71)</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                Luxary Vilas <span>(56)</span>
-              </Link>
-            </li>
-            <li>
-              <Link href="#">
-                Duplex House <span>(60)</span>
-              </Link>
-            </li>
-          </ul>
-        </div>
-        {/* <!-- Popular Product Widget --> */}
+
+        {/* Popular Product Widget */}
         <div className="widget ltn__popular-product-widget">
           <h4 className="ltn__widget-title ltn__widget-title-border-2">
             Popular Properties
@@ -242,8 +218,6 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
             {...popular_product}
             className="row ltn__popular-product-widget-active slick-arrow-1"
           >
-            {/* <!-- ltn__product-item --> */}
-
             {popularProducts.map((product, key) => {
               const slug = productSlug(product.title);
               return (
@@ -269,7 +243,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
                   <div className="product-info">
                     <div className="product-price">
                       <span>
-                      ₹{product.price}
+                        ₹{product.price}
                         <label>/Month</label>
                       </span>
                     </div>
@@ -297,7 +271,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
                       </li>
                       <li>
                         <span>{product.propertyDetails.area}</span>
-                        <span className="ms-1">square Ft</span>
+                        <span className="ms-1">Square Ft</span>
                       </li>
                     </ul>
                   </div>
@@ -306,22 +280,21 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
             })}
           </Slider>
         </div>
-        {/* <!-- Popular Post Widget --> */}
+
+        {/* Latest Blogs */}
         <div className="widget ltn__popular-post-widget">
           <h4 className="ltn__widget-title ltn__widget-title-border-2">
-            Leatest Blogs
+            Latest Blogs
           </h4>
           <ul>
             {latestdBlogs.map((blog, key) => {
               const slug = productSlug(blog.title);
-              let imagecount = key + 1;
-
               return (
                 <li key={key}>
                   <div className="popular-post-widget-item clearfix">
                     <div className="popular-post-widget-img">
                       <Link href={`/blog/${slug}`}>
-                        <img src={`/img/team/${imagecount}.jpg`} alt="#" />
+                        <img src={`/img/team/${key + 1}.jpg`} alt="#" />
                       </Link>
                     </div>
                     <div className="popular-post-widget-brief">
@@ -335,7 +308,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
                               <span>
                                 <FaCalendarAlt />
                               </span>
-                              <span> {blog.date}</span>
+                              <span>{blog.date}</span>
                             </Link>
                           </li>
                         </ul>
@@ -348,109 +321,11 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
           </ul>
         </div>
 
-        <div className="widget ltn__popular-post-widget ltn__twitter-post-widget">
-          <h4 className="ltn__widget-title ltn__widget-title-border-2">
-            Twitter Feeds
-          </h4>
-          <ul>
-            <li>
-              <div className="popular-post-widget-item clearfix">
-                <div className="popular-post-widget-img">
-                  <Link href="/blog-details">
-                    <span>
-                      <FaTwitter />
-                    </span>
-                  </Link>
-                </div>
-                <div className="popular-post-widget-brief">
-                  <p>
-                    Carsafe - #Gutenberg ready @wordpress Theme for Car Service,
-                    Auto Parts, Car Dealer available on @website
-                    <Link href="https://website.net">https://website.net</Link>
-                  </p>
-                  <div className="ltn__blog-meta">
-                    <ul>
-                      <li className="ltn__blog-date">
-                        <Link href="#">
-                          <span>
-                            <FaCalendarAlt />
-                          </span>
-                          June 22, 2020
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="popular-post-widget-item clearfix">
-                <div className="popular-post-widget-img">
-                  <Link href="/blog-details">
-                    <span>
-                      <FaTwitter />
-                    </span>
-                  </Link>
-                </div>
-                <div className="popular-post-widget-brief">
-                  <p>
-                    Carsafe - #Gutenberg ready @wordpress Theme for Car Service,
-                    Auto Parts, Car Dealer available on @website
-                    <Link href="https://website.net">https://website.net</Link>
-                  </p>
-                  <div className="ltn__blog-meta">
-                    <ul>
-                      <li className="ltn__blog-date">
-                        <Link href="#">
-                          <span>
-                            <FaCalendarAlt />
-                          </span>
-                          June 22, 2020
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="popular-post-widget-item clearfix">
-                <div className="popular-post-widget-img">
-                  <Link href="/blog-details">
-                    <span>
-                      <FaTwitter />
-                    </span>
-                  </Link>
-                </div>
-                <div className="popular-post-widget-brief">
-                  <p>
-                    Carsafe - #Gutenberg ready @wordpress Theme for Car Service,
-                    Auto Parts, Car Dealer available on @website
-                    <Link href="https://website.net">https://website.net</Link>
-                  </p>
-                  <div className="ltn__blog-meta">
-                    <ul>
-                      <li className="ltn__blog-date">
-                        <Link href="#">
-                          <span>
-                            <FaCalendarAlt />
-                          </span>
-                          June 22, 2020
-                        </Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+        {/* Follow Us */}
+        <FollowUs />
 
-        <FollowUs title="Follow Us" />
-
-        {/* <!-- Tagcloud Widget --> */}
-
-        <Tags title="Popular Tags" />
+        {/* Tagcloud Widget */}
+        <Tags />
       </aside>
     </>
   );

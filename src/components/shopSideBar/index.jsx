@@ -23,7 +23,7 @@ const SideBar = ({ products, getSortParams }) => {
         </label>
         {/* <!-- Advance Information widget --> */}
         <div className="widget ltn__menu-widget">
-          <h4 className="ltn__widget-title">Property Type</h4>
+          <h4 className="ltn__widget-title"> PG Type (Property)</h4>
           {aminities.length > 0 ? (
             <>
               <ul>

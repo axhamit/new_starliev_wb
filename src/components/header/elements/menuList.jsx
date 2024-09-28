@@ -221,11 +221,11 @@ const MenuList = ({ addListing }) => {
           </li>
         </ul> */}
       </li>
-      <li className="menu-icon">
+      {/* <li className="menu-icon">
         <Link href="/blog">
           Blog
-           {/* <FaPlus /> */}
-        </Link>
+    
+        </Link> */}
         {/* <ul>
           <li>
             <Link href="/blog">News</Link>
@@ -240,7 +240,7 @@ const MenuList = ({ addListing }) => {
             <Link href="/blog/right-sidebar">News Right sidebar</Link>
           </li>
         </ul> */}
-      </li>
+      {/* </li> */}
       <li>
         <Link href="/contact">Contact</Link>
       </li>
