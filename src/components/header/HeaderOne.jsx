@@ -102,7 +102,8 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="" alt="Logo" />
+                      {/* <img src="" alt="Logo" /> */}
+                      <h2>STARLIVE</h2>
                     </Link>
                   </div>
                 </div>
@@ -172,7 +173,7 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                   </div>
                 </div>
                 {/* <!-- user-menu --> */}
-                <div className="ltn__drop-menu user-menu">
+                {/* <div className="ltn__drop-menu user-menu">
                   <ul>
                     <li>
                       <Link href="#">
@@ -194,9 +195,9 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                       </ul>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 {/* <!-- mini-cart --> */}
-                <div className="mini-cart-icon">
+                {/* <div className="mini-cart-icon">
                   <button
                     onClick={cartMenu}
                     className={`ltn__utilize-toggle ${
@@ -204,7 +205,7 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                     }`}
                   >
                     <FaCartArrowDown />
-                    {/* <sup>6</sup> */}
+                  
 
                     {cartItems.length > 0 ? (
                       <sup>{cartItems.length}</sup>
@@ -212,10 +213,10 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                       <sup>0</sup>
                     )}
                   </button>
-                </div>
+                </div> */}
                 {/* <!-- mini-cart --> */}
                 {/* <!-- Mobile Menu Button --> */}
-                <div className="mobile-menu-toggle d-xl-none">
+                {/* <div className="mobile-menu-toggle d-xl-none">
                   <button
                     onClick={offcanVasToggler}
                     className={`ltn__utilize-toggle ${
@@ -235,7 +236,7 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                       ></path>
                     </svg>
                   </button>
-                </div>
+                </div> */}
               </Col>
             </Row>
           </Container>

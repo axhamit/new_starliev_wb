@@ -248,7 +248,7 @@ function BlogtDetails({ blog }) {
                     </Row>
                   </div>
                   {/* <!-- comment-area --> */}
-                  <div className="ltn__comment-area mb-50">
+                  {/* <div className="ltn__comment-area mb-50">
                     <div className="ltn-author-introducing clearfix">
                       <div className="author-img">
                         <img
@@ -344,11 +344,11 @@ function BlogtDetails({ blog }) {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                   <hr />
                   
                   {/* <!-- comment-reply --> */}
-                  <div className="ltn__comment-reply-area ltn__form-box mb-60---">
+                  {/* <div className="ltn__comment-reply-area ltn__form-box mb-60---">
                     <h4 className="title-2">Post Comment</h4>
                     <form action="#">
                       <div className="input-item input-item-textarea ltn__custom-icon">
@@ -396,7 +396,7 @@ function BlogtDetails({ blog }) {
                         </button>
                       </div>
                     </form>
-                  </div>
+                  </div> */}
                 </div>
               </Col>
 

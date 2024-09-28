@@ -138,8 +138,8 @@ function MyAccount() {
                                     />
                                   </div>
                                   <div className="author-info">
-                                    <h6>Agent of Property</h6>
-                                    <h2>Rosalina D. William</h2>
+                                    <h6>Manager of Property</h6>
+                                    <h2>SANDEEP</h2>
                                     <div className="footer-address">
                                       <ul>
                                         <li>

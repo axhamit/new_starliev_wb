@@ -63,7 +63,8 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           <div className="ltn__utilize-menu-head">
             <div className="site-logo">
               <Link href="/">
-                <img src="" alt="Logo" />
+                {/* <img src="" alt="Logo" /> */}
+                <h2 style={{color:"#000"}}>STARLIVE</h2>
               </Link>
             </div>
             <button onClick={closeSideBar} className="ltn__utilize-close">
@@ -82,16 +83,14 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
             <ul>
               <li>
                 <Link href="#">Home</Link>
-                <span
+                {/* <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
-                ></span>
+                ></span> */}
                 <ul className="sub-menu">
-                  <li>
-                    <Link href="/home">Home Style 01</Link>
-                  </li>
-                  <li>
+                
+                  {/* <li>
                     <Link href="/home/page-two">Home Style 02</Link>
                   </li>
                   <li>
@@ -120,18 +119,18 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   </li>
                   <li>
                     <Link href="/home/page-eleven">Home Style 11</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li>
-                <Link href="#">About</Link>
-                <span
+                <Link href="/about">About</Link>
+                {/* <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
-                ></span>
+                ></span> */}
                 <ul className="sub-menu">
-                  <li>
+                  {/* <li>
                     <Link href="/about">About</Link>
                   </li>
                   <li>
@@ -154,35 +153,25 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   </li>
                   <li>
                     <Link href="/locations">Google Map Locations</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li>
-                <Link href="#">Property</Link>
-                <span
+                <Link href="/shop/right-sidebar">Rooms</Link>
+                {/* <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
-                ></span>
+                ></span> */}
                 <ul className="sub-menu">
-                  <li>
+                  {/* <li>
                     <Link href="/shop">Property</Link>
-                  </li>
-                  <li>
-                    <Link href="/shop/grid">Property Grid</Link>
-                  </li>
-                  <li>
-                    <Link href="/shop/list">Property List</Link>
-                  </li>
-                  <li>
-                    <Link href="/shop/left-sidebar">Property Left sidebar</Link>
-                  </li>
-                  <li>
+                 
                     <Link href="/shop/right-sidebar">
                       Property right sidebar
                     </Link>
-                  </li>
-                  
+                  </li> */}
+{/*                   
                   <li>
                     <Link href="/cart">Cart</Link>
                   </li>
@@ -203,80 +192,10 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   </li>
                   <li>
                     <Link href="/register">Register</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
-              <li>
-                <Link href="#">News</Link>
-                <span
-                  className="menu-expand"
-                  onClick={onClickHandler}
-                  aria-hidden="true"
-                ></span>
-                <ul className="sub-menu">
-                  <li>
-                    <Link href="/blog">News</Link>
-                  </li>
-                  <li>
-                    <Link href="/blog/grid">News Grid</Link>
-                  </li>
-                  <li>
-                    <Link href="/blog/left-sidebar">News Left sidebar</Link>
-                  </li>
-                  <li>
-                    <Link href="/blog/right-sidebar">News Right sidebar</Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link href="#">Pages</Link>
-                <span
-                  className="menu-expand"
-                  onClick={onClickHandler}
-                  aria-hidden="true"
-                ></span>
-                <ul className="sub-menu">
-                  <li>
-                    <Link href="/about">About</Link>
-                  </li>
-                  <li>
-                    <Link href="/service">Services</Link>
-                  </li>
-
-                  <li>
-                    <Link href="/portfolio">Portfolio</Link>
-                  </li>
-                  <li>
-                    <Link href="/portfolio/page-two">Portfolio - 02</Link>
-                  </li>
-
-                  <li>
-                    <Link href="/team">Team</Link>
-                  </li>
-
-                  <li>
-                    <Link href="/faq">FAQ</Link>
-                  </li>
-                  <li>
-                    <Link href="/history">History</Link>
-                  </li>
-                  <li>
-                    <Link href="/add-listing">Add Listing</Link>
-                  </li>
-                  <li>
-                    <Link href="/locations">Google Map Locations</Link>
-                  </li>
-                  <li>
-                    <Link href="/404">404</Link>
-                  </li>
-                  <li>
-                    <Link href="/contact">Contact</Link>
-                  </li>
-                  <li>
-                    <Link href="/coming-soon">Coming Soon</Link>
-                  </li>
-                </ul>
-              </li>
+           
               <li>
                 <Link href="/contact">Contact</Link>
               </li>

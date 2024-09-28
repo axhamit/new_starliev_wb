@@ -99,7 +99,8 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="" alt="Logo" />
+                      {/* <img src="" alt="Logo" /> */}
+                      <h2>STARLIVE</h2>
                     </Link>
                   </div>
                 </div>

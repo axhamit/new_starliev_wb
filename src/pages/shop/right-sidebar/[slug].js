@@ -322,7 +322,7 @@ function ProductDetails({ product }) {
                         <div className="property-detail-feature-list-item">
                           <i className="flaticon-double-bed"></i>
                           <div>
-                            <h6>Living Room</h6>
+                            <h6>car Parking</h6>
                             <small>{product.factsAndFeatures.livingRoom}</small>
                           </div>
                         </div>
@@ -331,7 +331,7 @@ function ProductDetails({ product }) {
                         <div className="property-detail-feature-list-item">
                           <i className="flaticon-double-bed"></i>
                           <div>
-                            <h6>Garage</h6>
+                            <h6>Lift</h6>
                             <small>{product.factsAndFeatures.garage}</small>
                           </div>
                         </div>
@@ -808,7 +808,7 @@ function ProductDetails({ product }) {
                     </div>
                     <hr />
                     {/* <!-- comment-area --> */}
-                    <div className="ltn__comment-area mb-30">
+                    {/* <div className="ltn__comment-area mb-30">
                       <div className="ltn__comment-inner">
                         <ul>
                           <li>
@@ -960,7 +960,7 @@ function ProductDetails({ product }) {
                           </li>
                         </ul>
                       </div>
-                    </div>
+                    </div> */}
                     {/* <!-- comment-reply --> */}
                     <div className="ltn__comment-reply-area ltn__form-box mb-30">
                       <form action="#">
