@@ -74,7 +74,8 @@ const HeaderStyleTwo = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="" alt="Logo" />
+                      {/* <img src="" alt="Logo" />  */}
+                      <h2 style={{color:"white"}}>STARLIVE</h2>
                     </Link>
                   </div>
                 </div>

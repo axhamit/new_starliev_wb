@@ -20,11 +20,11 @@
     "rent": false,
     "photo": ["buying", "women", "women"],
     "video": ["buying", "women"],
-    "bedBath": ["Single", "co-living", "two sharing", "three Sharing" ],
+    "bedBath": ["Single", "renting", "selling"],
     "ratingCount": 5,
     "rating": 4,
     "saleCount": 5,
-    "category": ["premium", "deluxe", "ladies PG", "boys PG", "co-Living"],
+    "category": ["buying", "renting"],
     "tag": [
       "Popular",
       "desgin",
@@ -73,24 +73,24 @@
       "Air Conditioning",
       "Gym",
       "Microwave",
-      "WorkSpace",
+      "Swimming Pool",
       "WiFi"
     ],
     "amenities2": [
-      "Smoking Zone",
-      "Lake View",
-      "Wakefit Bed",
-      "Daily Cleaning",
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
       "Fireplace"
     ],
     "amenities3": [
-      "Garden Area",
+      "Refrigerator",
       "Window Coverings",
-      "Washing Machine",
+      "Washer",
       "24x7 Security",
       "Indoor Game"
     ],
-    "AmenitiesList": ["WIFI"],
+    "AmenitiesList": [""],
     "agent": {
       "firstName": "StarLive ",
       "lastName": "Co-living PG",
@@ -108,7 +108,7 @@
       "img2": "15.jpg",
       "img3": "16.jpg"
     },
-    "propertyTypes": ["Luxury PG", "homley PG", "Co-Living PG", "Girls PG", "Boys PG"]
+    "propertyTypes": ["Luxury PG"]
   },
   {
     "id": "2",
@@ -131,11 +131,11 @@
     "rent": true,
     "photo": ["buying", "women", "women"],
     "video": ["buying", "women"],
-    "bedBath": ["Single", "co-living", "two sharing", "three Sharing" ],
+    "bedBath": ["Single", "renting", "selling"],
     "ratingCount": 3,
     "rating": 4,
     "saleCount": 10,
-    "category": ["premium", "deluxe", "ladies PG", "boys PG", "co-Living"],
+    "category": ["buying"],
     "tag": [
       "Popular",
       "desgin",
@@ -224,8 +224,8 @@
     "locantion": "Btm 2nd Stage Near Lake ",
     "description": {
       "title": "Description",
-      "fullDescription": "Looking for comfortable and affordable accommodation? Our three-sharing PG room offers a perfect balance of privacy and community living, designed for students, working professionals, and individuals seeking a hassle-free lifestyle. Situated in a safe and convenient neighborhood, our PG provides all the essential amenities you need for a relaxed and productive stay.",
-      "shortDescription": "The PG is situated in a prime location, ensuring easy access to local markets, shopping centers, restaurants, and public transportation. This makes commuting to offices, educational institutions, or other key areas a breeze."
+      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
+      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -268,7 +268,7 @@
       "24x7 Security",
       "Indoor Game"
     ],
-    "AmenitiesList": ["Daily Cleaning"],
+    "AmenitiesList": ["Kids Zone"],
     "agent": {
       "firstName": "StarLive ",
       "lastName": "Co-living PG",
@@ -286,7 +286,7 @@
       "img2": "15.jpg",
       "img3": "16.jpg"
     },
-    "propertyTypes": ["Luxury PG", "homley PG", "Co-Living PG", "Girls PG", "Boys PG"]
+    "propertyTypes": ["Apartment", "Office Villa", "Luxary Home", "Studio"]
   },
   {
     "id": "3",
@@ -309,11 +309,11 @@
     "rent": false,
     "photo": ["buying", "women", "women"],
     "video": ["buying", "women"],
-    "bedBath": ["Single", "co-living", "two sharing", "three Sharing" ],
+    "bedBath": ["Single", "renting", "selling"],
     "ratingCount": 2,
     "rating": 3,
     "saleCount": 15,
-    "category": ["premium", "deluxe", "ladies PG", "boys PG", "co-Living"],
+    "category": ["buying", "selling"],
     "tag": [
       "Popular",
       "desgin",
@@ -335,8 +335,8 @@
     "locantion": "Btm 2nd Stage Near Lake ",
     "description": {
       "title": "Description",
-      "fullDescription": "Welcome to our comfortable and budget-friendly four-sharing PG room, designed for individuals who value community living without compromising on personal space. This room is ideal for students, professionals, and newcomers to the city, offering a well-balanced mix of privacy and companionship. Our PG provides a homely atmosphere where you can relax, work, and connect with like-minded individuals.",
-      "shortDescription": "Living in this four-sharing setup allows you to enjoy the benefits of a community, where you can build friendships while still having the space to relax and unwind after a long day. The room is designed to foster a peaceful and comfortable environment, making it ideal for individuals looking for a hassle-free stay."
+      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
+      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -379,7 +379,7 @@
       "24x7 Security",
       "Indoor Game"
     ],
-    "AmenitiesList": ["security"],
+    "AmenitiesList": ["Floor Coverings"],
     "agent": {
       "firstName": "StarLive ",
       "lastName": "Co-living PG",
@@ -397,7 +397,7 @@
       "img2": "15.jpg",
       "img3": "16.jpg"
     },
-    "propertyTypes": ["Luxury PG", "homley PG", "Co-Living PG", "Girls PG", "Boys PG"]
+    "propertyTypes": ["House", "Single Family", "Luxary Home", "Studio"]
   },
   {
     "id": "4",
@@ -420,11 +420,11 @@
     "rent": true,
     "photo": ["buying", "women", "men"],
     "video": ["buying", "women", "children"],
-    "bedBath": ["Single", "co-living", "two sharing", "three Sharing" ],
+    "bedBath": ["Single", "renting", "selling"],
     "ratingCount": 5,
     "rating": 5,
     "saleCount": 20,
-    "category": ["premium", "deluxe", "ladies PG", "boys PG", "co-Living"],
+    "category": ["buying", "renting"],
     "tag": [
       "Popular",
       "desgin",
@@ -446,8 +446,8 @@
     "locantion": "Btm 2nd Stage Near Lake ",
     "description": {
       "title": "Description",
-      "fullDescription": "Our two-sharing room comes with two individual beds, each equipped with a comfortable mattress, fresh linen, and soft pillows to ensure a restful sleep. Both occupants have their own personal wardrobe and study desk, making it easy to organize your belongings and focus on work or study without any disturbances. The room is well-ventilated with large windows, allowing for plenty of natural light and fresh air. Additionally, the room is air-conditioned, providing relief during hot summer months, and there’s also a ceiling fan for those who prefer it.",
-      "shortDescription": "The PG is situated in a prime location, ensuring easy access to local markets, shopping centers, restaurants, and public transportation. This makes commuting to offices, educational institutions, or other key areas a breeze."
+      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
+      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
     },
     "propertyDetails": {
       "propertyId": "HZ29",
@@ -490,7 +490,7 @@
       "24x7 Security",
       "Indoor Game"
     ],
-    "AmenitiesList": ["Refrigerator"],
+    "AmenitiesList": ["Floor Coverings"],
     "agent": {
       "firstName": "StarLive ",
       "lastName": "Co-living PG",
@@ -508,7 +508,13 @@
       "img2": "15.jpg",
       "img3": "16.jpg"
     },
-    "propertyTypes": ["Luxury PG", "homley PG", "Co-Living PG", "Girls PG", "Boys PG"]
+    "propertyTypes": [
+      "House",
+      "Single Family",
+      "Apartment",
+      "Luxary Home",
+      "Studio"
+    ]
   },
   {
     "id": "5",
@@ -531,11 +537,11 @@
     "rent": true,
     "photo": ["buying", "women", "women"],
     "video": ["buying", "women"],
-    "bedBath": ["Single", "co-living", "two sharing", "three Sharing" ],
+    "bedBath": ["Single", "renting", "selling"],
     "ratingCount": 5,
     "rating": 5,
     "saleCount": 90,
-    "category": ["premium", "deluxe", "ladies PG", "boys PG", "co-Living"],
+    "category": ["buying", "renting"],
     "tag": [
       "Popular",
       "desgin",
@@ -601,7 +607,7 @@
       "24x7 Security",
       "Indoor Game"
     ],
-    "AmenitiesList": ["wakefit bed"],
+    "AmenitiesList": ["Supermarket"],
     "agent": {
       "firstName": "StarLive ",
       "lastName": "Co-living PG",
@@ -619,7 +625,7 @@
       "img2": "15.jpg",
       "img3": "16.jpg"
     },
-    "propertyTypes": ["Luxury PG", "homley PG", "Co-Living PG", "Girls PG", "Boys PG"]
+    "propertyTypes": ["House", "Single Family", "Apartment", "Office Villa"]
   },
  
   {
@@ -643,11 +649,11 @@
     "rent": false,
     "photo": ["buying", "women", "women"],
     "video": ["buying", "women"],
-    "bedBath": ["Single", "co-living", "two sharing", "three Sharing" ],
+    "bedBath": ["Single", "renting", "selling"],
     "ratingCount": 5,
     "rating": 5,
     "saleCount": 30,
-    "category": ["premium", "deluxe", "ladies PG", "boys PG", "co-Living"],
+    "category": ["buying", "renting", "selling"],
     "tag": [
       "Popular",
       "desgin",
@@ -713,7 +719,7 @@
       "24x7 Security",
       "Indoor Game"
     ],
-    "AmenitiesList": ["Lunch box facility"],
+    "AmenitiesList": ["Supermarket"],
     "agent": {
       "firstName": "StarLive ",
       "lastName": "Co-living PG",
@@ -730,7 +736,8 @@
       "img1": "14.jpg",
       "img2": "15.jpg",
       "img3": "16.jpg"
-    }
+    },
+    "propertyTypes": ["Office Villa"]
   },
   {
     "id": "8",
@@ -742,7 +749,7 @@
     ],
     "title": "Three Sharing",
     "productImg": "three_share.webp",
-    "price":9999,
+    "price": 500,
     "priceRange": ["Low Budget", "Medium"],
     "discount": 5,
     "country": false,
@@ -753,11 +760,11 @@
     "rent": true,
     "photo": ["buying", "women", "women"],
     "video": ["buying", "women"],
-    "bedBath": ["Single", "co-living", "two sharing", "three Sharing" ],
+    "bedBath": ["Single", "renting", "selling"],
     "ratingCount": 5,
     "rating": 5,
     "saleCount": 35,
-    "category": ["premium", "deluxe", "ladies PG", "boys PG", "co-Living"],
+    "category": ["buying", "renting", "selling"],
     "tag": [
       "Popular",
       "desgin",
@@ -823,7 +830,7 @@
       "24x7 Security",
       "Indoor Game"
     ],
-    "AmenitiesList": ["workSpace Place"],
+    "AmenitiesList": ["Supermarket"],
     "agent": {
       "firstName": "Rosalina D.",
       "lastName": "Willaimson",
@@ -841,7 +848,7 @@
       "img2": "15.jpg",
       "img3": "16.jpg"
     },
-    "propertyTypes": ["Luxury PG", "homley PG", "Co-Living PG", "Girls PG", "Boys PG"]
+    "propertyTypes": ["Single Family"]
   },
   {
     "id": "9",
@@ -853,7 +860,7 @@
     ],
     "title": "Four Sharing",
     "productImg": "four_share.webp",
-    "price": 8999,
+    "price": 270,
     "priceRange": ["Low Budget"],
     "discount": 5,
     "country": true,
@@ -864,11 +871,11 @@
     "rent": false,
     "photo": ["buying", "women", "women"],
     "video": ["buying", "women"],
-    "bedBath": ["Single", "co-living", "two sharing", "three Sharing" ],
+    "bedBath": ["Single", "renting", "selling"],
     "ratingCount": 5,
     "rating": 5,
     "saleCount": 90,
-    "category": ["premium", "deluxe", "ladies PG", "boys PG", "co-Living"],
+    "category": ["buying", "selling"],
     "tag": [
       "Popular",
       "desgin",
@@ -934,7 +941,7 @@
       "24x7 Security",
       "Indoor Game"
     ],
-    "AmenitiesList": ["TV"],
+    "AmenitiesList": ["Supermarket"],
     "agent": {
       "firstName": "Rosalina D.",
       "lastName": "Willaimson",
@@ -952,6 +959,6 @@
       "img2": "15.jpg",
       "img3": "16.jpg"
     },
-    "propertyTypes": ["Luxury PG", "homley PG", "Co-Living PG", "Girls PG", "Boys PG"]
+    "propertyTypes": ["House", "Single Family"]
   }
 ]

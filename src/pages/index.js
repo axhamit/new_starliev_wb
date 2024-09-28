@@ -225,7 +225,7 @@ function HomeVersionThree(props) {
                 headingClasses="section-subtitle-2"
                 titleSectionData={{
                   subTitle: "Explore Rooms",
-                  title: "Our PG's Gallery",
+                  title: "Our P's Gallery",
                 }}
               />
             </Col>
