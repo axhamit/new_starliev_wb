@@ -1,12 +1,12 @@
 import { v4 as uuidv4 } from 'uuid';
-import cogoToast from "@hasanm95/cogo-toast";
-const { createSlice } = require('@reduxjs/toolkit');
-import { HYDRATE } from "next-redux-wrapper";
+import { createSlice } from '@reduxjs/toolkit';
+import { HYDRATE } from 'next-redux-wrapper';
+import { toast } from 'react-toastify'; // Import react-toastify
 
 const cartSlice = createSlice({
-    name: "cart",
+    name: 'cart',
     initialState: {
-        cartItems: []
+        cartItems: [],
     },
     reducers: {
         addToCart(state, action) {
@@ -17,20 +17,19 @@ const cartSlice = createSlice({
                     state.cartItems.push({
                         ...product,
                         quantity: product.quantity ? product.quantity : 1,
-                        cartItemId: uuidv4()
+                        cartItemId: uuidv4(),
                     });
                 } else {
                     state.cartItems = state.cartItems.map(item => {
                         if (item.cartItemId === cartItem.cartItemId) {
                             return {
                                 ...item,
-                                quantity: product.quantity ? item.quantity + product.quantity : item.quantity + 1
-                            }
+                                quantity: product.quantity ? item.quantity + product.quantity : item.quantity + 1,
+                            };
                         }
                         return item;
-                    })
+                    });
                 }
-
             } else {
                 const cartItem = state.cartItems.find(
                     item =>
@@ -41,50 +40,45 @@ const cartSlice = createSlice({
                     state.cartItems.push({
                         ...product,
                         quantity: product.quantity ? product.quantity : 1,
-                        cartItemId: uuidv4()
+                        cartItemId: uuidv4(),
                     });
-                }
-
-
-
-
-                else {
+                } else {
                     state.cartItems = state.cartItems.map(item => {
                         if (item.cartItemId === cartItem.cartItemId) {
                             return {
                                 ...item,
                                 quantity: product.quantity ? item.quantity + product.quantity : item.quantity + 1,
-
-                            }
+                            };
                         }
                         return item;
                     });
                 }
             }
 
-            cogoToast.success("Added To Cart", { position: "bottom-left" });
+            toast.success('Added To Cart', { position: 'bottom-left' }); // Use react-toastify
         },
         deleteFromCart(state, action) {
             state.cartItems = state.cartItems.filter(item => item.cartItemId !== action.payload);
-            cogoToast.error("Removed From Cart", { position: "bottom-left" });
+            toast.error('Removed From Cart', { position: 'bottom-left' }); // Use react-toastify
         },
         decreaseQuantity(state, action) {
             const product = action.payload;
             if (product.quantity === 1) {
                 state.cartItems = state.cartItems.filter(item => item.cartItemId !== product.cartItemId);
-                cogoToast.error("Removed From Cart", { position: "bottom-left" });
+                toast.error('Removed From Cart', { position: 'bottom-left' }); // Use react-toastify
             } else {
                 state.cartItems = state.cartItems.map(item =>
                     item.cartItemId === product.cartItemId
                         ? { ...item, quantity: item.quantity - 1 }
                         : item
                 );
-                cogoToast.warn("Item Decremented From Cart", { position: "bottom-left" });
+                toast.warn('Item Decremented From Cart', { position: 'bottom-left' }); // Use react-toastify
             }
         },
         deleteAllFromCart(state) {
-            state.cartItems = []
-        }
+            state.cartItems = [];
+            toast.info('All items removed from cart', { position: 'bottom-left' }); // Optional: Notify when cart is emptied
+        },
     },
     extraReducers: (builder) => {
         builder
@@ -93,7 +87,7 @@ const cartSlice = createSlice({
                     ...state,
                     ...action.payload.cartItems,
                 };
-            })
+            });
     },
 });
 
