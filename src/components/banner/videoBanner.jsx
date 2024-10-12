@@ -1,7 +1,7 @@
 import { FaPlay } from "react-icons/fa";
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
-import 'react-modal-video/css/modal-video.min.css'; // Ensure this is imported
+import "react-modal-video/css/modal-video.min.css"; // Ensure this is imported
 
 const VideoBanner = () => {
   const [isOpen, setOpen] = useState(false);
