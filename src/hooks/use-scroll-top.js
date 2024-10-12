@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 const useScrollTop = () => {
   const [stick, setStick] = useState(false);
   const onClickHandler = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "smooth"});
   };
 
   useEffect(() => {

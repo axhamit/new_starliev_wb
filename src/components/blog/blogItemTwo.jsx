@@ -13,7 +13,7 @@ import Slider from "react-slick";
 const BlogItemTwo = ({ blogData, slug, baseUrl }) => {
   const [isOpen, setOpen] = useState(false);
   const blogSettings = {
-    dots: false,
+    dots: false,  
     infinite: true,
     speed: 500,
     slidesToShow: 1,
