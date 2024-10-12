@@ -45,7 +45,7 @@
     "uuid": "^9.0.0",
     "yarn": "^1.22.19",
     "yet-another-react-lightbox": "^3.12.1",
-    "my-package": "git+https://github.com/Mohd-w123/starlive-website.git#main" 
+    "my-package": "https://github.com/axhamit/new_repo_starlive.git.#main" 
   },
   "devDependencies": {
     "sass": "^1.59.2"
