@@ -490,6 +490,7 @@ a i {
 }
 img {
   max-width: 100%;
+  border-radius: 20px;
 }
 ul li,
 ol li {
@@ -2091,7 +2092,7 @@ ul {
   padding-bottom: 85px;
 }
 .pb-90 {
-  padding-bottom: 90px;
+  padding-bottom: 50px;
 }
 .pb-95 {
   padding-bottom: 95px;
@@ -2263,7 +2264,7 @@ ul {
   margin-top: 118px;
 }
 .mt-120 {
-  margin-top: 120px;
+  margin-top: 65px;
 }
 .mt-122 {
   margin-top: 122px;
@@ -2469,6 +2470,7 @@ ul {
   .plr--12 {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 50px
   }
 }
 @media (min-width: 1400px) {
