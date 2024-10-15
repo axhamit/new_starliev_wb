@@ -21,6 +21,7 @@
     &:last-child {
         margin-right: 0;
     }
+    border-radius: 8px;
 }
 .theme-btn-1 {
     background-color: var(--ltn__secondary-color);
@@ -28,7 +29,9 @@
     &:hover{
         background-color:  var(--ltn__primary-color);
         color: var(--white);
+        
     }
+    
 }
 .theme-btn-2 {
     background-color:  var(--ltn__primary-color);

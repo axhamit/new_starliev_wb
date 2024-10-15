@@ -841,6 +841,7 @@ fieldset legend {
 }
 .position-relative {
   position: relative;
+  border-radius: 30px;
 }
 .ltn__z-index-9 {
   z-index: 9;
@@ -1685,6 +1686,7 @@ ul {
 }
 .bg-overlay-black-30:before {
   background: rgba(0, 0, 0, 0.3);
+  border-radius: 48px;
 }
 .bg-overlay-black-40:before {
   background: rgba(0, 0, 0, 0.4);
