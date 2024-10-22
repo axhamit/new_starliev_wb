@@ -7726,3 +7726,12 @@ input.cart-plus-minus-box {
 .price_filter .price_slider_amount span:nth-child(3) {
   margin: 0 5px;
 }
+
+
+@media screen and (max-width:641px){
+  .bg-image {
+    border-radius:0;
+
+  
+  }
+}
