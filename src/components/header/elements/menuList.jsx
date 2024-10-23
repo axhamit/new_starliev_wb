@@ -101,7 +101,7 @@ const MenuList = ({ addListing }) => {
           <li>
             <Link href="/shop/grid">Co Living</Link>
           </li>
-          {/* <li>
+          <li>
             <Link href="/shop/list">Property List</Link>
           </li>
           <li>
@@ -109,7 +109,7 @@ const MenuList = ({ addListing }) => {
           </li>
           <li>
             <Link href="/shop/right-sidebar">Property right sidebar</Link>
-          </li> */}
+          </li>
 
           {/* <li>
             <Link href="#">
