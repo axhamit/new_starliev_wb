@@ -17,6 +17,7 @@ import "yet-another-react-lightbox/plugins/counter.css";
 import "@/assets/sass/style.scss";
 import "@/assets/responsive.css";
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from "@vercel/analytics/react"
 
 const nunito = Nunito_Sans({
   weight: ["200", "300", "400", "600", "700", "800", "900"],
@@ -64,6 +65,7 @@ const MyApp = ({ Component, ...rest }) => {
       <Provider store={store}>
         <PersistGate persistor={store.__persistor} loading={<Preloader />}>
         <SpeedInsights />
+        <Analytics />
           <Component {...props.pageProps} />
         </PersistGate>
       </Provider>
