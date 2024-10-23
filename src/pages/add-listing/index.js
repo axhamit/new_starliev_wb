@@ -12,7 +12,7 @@ function AddListingPage() {
   return (
     <>
       <LayoutOne topbar={true}>
-        <ShopBreadCrumb title="Add Listing" sectionPace="" currentSlug="Add Listing" />
+        {/* <ShopBreadCrumb title="Add Listing" sectionPace="" currentSlug="Add Listing" /> */}
         {/* // <!-- APPOINTMENT AREA START --> */}
         <div className="ltn__appointment-area pb-120">
           <Container>
