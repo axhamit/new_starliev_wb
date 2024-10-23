@@ -95,7 +95,9 @@
     &:hover {
       background-color: var(--ltn__secondary-color-2);
     }
+    border-radius: 20px;
   }
+
 }
 /* ----------------------------------------------
     Header Middle Area
@@ -225,6 +227,7 @@
 .ltn__main-menu > ul {
   display: flex;
   padding: 0;
+  align-items: center;
 }
 .ltn__main-menu li {
   list-style: none;
@@ -1858,7 +1861,9 @@
   .header-top-btn a {
     padding: 0 15px;
     line-height: 25px;
+
   }
+
 }
 
 @media (max-width: 575px) {

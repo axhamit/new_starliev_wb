@@ -66,7 +66,7 @@ function HeroSectionStyleThree({ data }) {
             return (
               <div key={key}>
                 <div
-                className="ltn__slide-item  ltn__slide-item-2 ltn__slide-item-3 bg-image bg-overlay-theme-black-60"
+                className="ltn__slide-item  ltn__slide-item-2 ltn__slide-item-3 mt-4 bg-image bg-overlay-theme-black-60"
                   style={{
                     backgroundImage: `url("../img/slider/${item.bgImage}")`, 
                   }}
@@ -91,7 +91,7 @@ function HeroSectionStyleThree({ data }) {
                                 </span>
                                 {item.subtitle}
                               </h6>
-                              <h1 className="slide-title animated">
+                              <h1 className="slide-title animated  ">
                                 {item.Title}
                               </h1>
                               <div className="slide-brief animated">

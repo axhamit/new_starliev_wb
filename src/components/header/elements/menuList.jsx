@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaPlus, FaAngleDoubleRight } from "react-icons/fa";
+import { FaPlus, FaAngleDoubleRight, FaPhoneAlt } from "react-icons/fa";
 const MenuList = ({ addListing }) => {
   return (
     <ul>
@@ -245,11 +245,13 @@ const MenuList = ({ addListing }) => {
         <Link href="/contact">Contact</Link>
       </li>
 
-      {/* {addListing ? (
-        <li className="special-link">
-          <Link href="/add-listing">Add Listing</Link>
-        </li>
-      ) : null} */}
+       {addListing ? (
+        // <li className="special-link">
+       <div className="header-top-btn">
+                      <Link href="tel:+919019160966"> <FaPhoneAlt/> Call Now</Link>
+                      </div>
+        // </li>
+      ) : null} 
     </ul>
   );
 };

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import { LayoutOne } from "@/layouts";
 import { Container, Row, Col } from "react-bootstrap";
 import { getProducts, productSlug } from "@/lib/product";
@@ -20,14 +20,21 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import Download from "yet-another-react-lightbox/plugins/download";
 
 function Portfolio() {
-  const portfolios = getProducts(portfolioData, "buying", "featured", 6);
+  // State to manage the number of items to display
+  const [visibleItems, setVisibleItems] = useState(6); // Initially show 6 items
+
+  // Fetch all portfolios instead of just the first 6
+  const portfolios = getProducts(portfolioData, "buying", "featured");
+
+  // Function to handle 'Load More' button click
+  const loadMoreItems = () => {
+    setVisibleItems((prevItems) => prevItems + 6); // Load 6 more items
+  };
+
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <button
       {...props}
-      className={
-        "slick-prev slick-arrow" +
-        (currentSlide === 0 ? " slick-disabled" : "")
-      }
+      className={"slick-prev slick-arrow" + (currentSlide === 0 ? " slick-disabled" : "")}
       aria-hidden="true"
       aria-disabled={currentSlide === 0 ? true : false}
       type="button"
@@ -35,13 +42,11 @@ function Portfolio() {
       <FaArrowLeft />
     </button>
   );
+
   const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
     <button
       {...props}
-      className={
-        "slick-next slick-arrow" +
-        (currentSlide === slideCount - 1 ? " slick-disabled" : "")
-      }
+      className={"slick-next slick-arrow" + (currentSlide === slideCount - 1 ? " slick-disabled" : "")}
       aria-hidden="true"
       aria-disabled={currentSlide === slideCount - 1 ? true : false}
       type="button"
@@ -49,6 +54,7 @@ function Portfolio() {
       <FaArrowRight />
     </button>
   );
+
   const blogSettings = {
     dots: false,
     infinite: true,
@@ -58,6 +64,7 @@ function Portfolio() {
     prevArrow: <SlickArrowLeft />,
     nextArrow: <SlickArrowRight />,
   };
+
   const LogoSettings = {
     dots: false,
     infinite: true,
@@ -71,14 +78,12 @@ function Portfolio() {
   const [basicExampleOpen, setBasicExampleOpen] = useState(false);
 
   const gallerySlides = portfolios.map((img, i) => ({
-    src: `/img/gallery/${img.thumbImage}`,
+    src: `/img/photos/${img.thumbImage}`,
     key: i,
   }));
+
   return (
-
-
     <>
-
       <Lightbox
         open={basicExampleOpen}
         close={() => setBasicExampleOpen(false)}
@@ -96,9 +101,8 @@ function Portfolio() {
         <div className="ltn__gallery-area mb-120">
           <Container>
             <div className="row ltn__gallery-active ltn__gallery-style-2">
-              {portfolios.map((data, key) => {
+              {portfolios.slice(0, visibleItems).map((data, key) => {
                 const slug = productSlug(data.title);
-
                 return (
                   <Portfolioitem
                     setBasicExampleOpen={setBasicExampleOpen}
@@ -111,11 +115,16 @@ function Portfolio() {
               })}
             </div>
 
-            <div className="btn-wrapper text-center">
-              <button className="btn btn-transparent btn-effect-3 btn-border">
-                LOAD MORE +
-              </button>
-            </div>
+            {visibleItems < portfolios.length && (
+              <div className="btn-wrapper text-center">
+                <button
+                  className="btn btn-transparent btn-effect-3 btn-border"
+                  onClick={loadMoreItems}
+                >
+                  LOAD MORE +
+                </button>
+              </div>
+            )}
           </Container>
         </div>
         {/*  <!-- Gallery area end --> */}
@@ -131,7 +140,7 @@ function Portfolio() {
                   sectionClasses="text-center"
                   titleSectionData={{
                     subTitle: "News & Blogs",
-                    title: "Leatest News Feeds",
+                    title: "Latest News Feeds",
                   }}
                 />
               </Col>

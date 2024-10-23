@@ -176,7 +176,7 @@ function ProductDetails({ product }) {
           channel="youtube"
           autoplay
           isOpen={isOpen}
-          videoId="X7R-q9rsrtU"
+          videoId="330peGfEMpY"
           onClose={() => setOpen(false)}
         />
         {/* <!-- BREADCRUMB AREA START --> */}

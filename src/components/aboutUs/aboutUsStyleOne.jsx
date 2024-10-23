@@ -1,32 +1,55 @@
 import Link from "next/link";
+import Image from "next/image"; // Import the Image component
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { FaPlay } from "react-icons/fa";
 import ModalVideo from "react-modal-video";
 import { useState } from "react";
+import 'react-modal-video/scss/modal-video.scss';
+
 function AboutUsStyleOne({ sectionSpace }) {
   const [isOpen, setOpen] = useState(false);
+
   return (
     <>
+      {/* Modal Video Component */}
       <ModalVideo
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="X7R-q9rsrtU"
+        videoId="330peGfEMpY" // Ensure this is the correct video ID
         onClose={() => setOpen(false)}
       />
+      
       <div className={`ltn__about-us-area ${sectionSpace}`}>
         <Container>
           <Row>
             <Col xs={12} lg={6} className="align-self-center">
               <div className="about-us-img-wrap about-img-left">
-                <img src="/img/others/7.png" alt="About Us Image" />
+                {/* Use Next.js Image component */}
+                <Image 
+                  src="/img/photos/starlive16.jpeg" 
+                  alt="About Us Image" 
+                  layout="responsive" 
+                  width={600} // Set the width according to your design
+                  height={400} // Set the height according to your design
+                />
                 <div className="about-us-img-info about-us-img-info-2 about-us-img-info-3">
                   <div className="ltn__video-img ltn__animation-pulse1">
-                    <img src="/img/others/8.png" alt="video popup bg image" />
+                    {/* Use Next.js Image component */}
+                    <Image 
+                      src="/img/photos/starlive17.jpeg" 
+                      alt="video popup bg image" 
+                      layout="responsive" 
+                      width={600} // Set the width according to your design
+                      height={800} // Set the height according to your design
+                    />
                     <button
-                      onClick={() => setOpen(true)}
+                      onClick={() => {
+                        console.log('Button clicked, opening modal');
+                        setOpen(true); // This should open the modal
+                      }}
                       className="ltn__video-icon-2"
                     >
                       <FaPlay />
@@ -71,10 +94,10 @@ function AboutUsStyleOne({ sectionSpace }) {
                     Complete 24/7 Security
                   </li>
                 </ul>
-                <div className="ltn__callout bg-overlay-theme-05  mt-30">
+                <div className="ltn__callout bg-overlay-theme-05 mt-30">
                   <p>
-                    Enimad minim veniam quis nostrud exercitation <br />
-                    llamco laboris. Lorem ipsum dolor sit amet
+                  Living together is great, but how about living together together?<br />
+           
                   </p>
                 </div>
                 <div className="btn-wrapper animated">

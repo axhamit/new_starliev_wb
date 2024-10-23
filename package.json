@@ -11,6 +11,8 @@
   "dependencies": {
     "@next/font": "^13.2.4",
     "@reduxjs/toolkit": "^1.9.1",
+    "@vercel/analytics": "^1.3.1",
+    "@vercel/speed-insights": "^1.0.13",
     "animate.css": "^3.7.0",
     "bootstrap": "^5.2.3",
     "clsx": "^2.0.0",
@@ -21,6 +23,7 @@
     "imagesloaded": "^4.1.4",
     "isotope-layout": "^3.0.6",
     "isotope-masonry-horizontal": "^2.0.1",
+    "my-package": "git remote add origin https://github.com/axhamit/new_starliev_wb.git#main",
     "next": "^14.2.15",
     "next-redux-wrapper": "^8.0.0",
     "prop-types": "^15.8.1",
@@ -30,7 +33,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.12.0",
     "react-mailchimp-subscribe": "^2.1.3",
-    "react-modal-video": "^2.0.1",
+    "react-modal-video": "^2.0.2",
     "react-paginate": "^8.2.0",
     "react-photo-album": "^2.3.0",
     "react-redux": "^8.0.5",
@@ -44,8 +47,7 @@
     "slugify": "^1.6.6",
     "uuid": "^9.0.0",
     "yarn": "^1.22.19",
-    "yet-another-react-lightbox": "^3.12.1",
-"my-package": "git remote add origin https://github.com/axhamit/new_starliev_wb.git#main"
+    "yet-another-react-lightbox": "^3.12.1"
   },
   "devDependencies": {
     "sass": "^1.59.2"
