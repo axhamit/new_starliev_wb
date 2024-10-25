@@ -376,7 +376,7 @@ function HomeVersionThree(props) {
 
 
       {/* <!-- BLOG AREA START (blog-3) -->  */}
-      <div className="ltn__blog-area pt-120 pb-70">
+      {/* <div className="ltn__blog-area pt-120 pb-70">
         <Container>
           <Row>
             <Col lg={12}>
@@ -402,7 +402,7 @@ function HomeVersionThree(props) {
             })}
           </Slider>
         </Container>
-      </div>
+      </div> */}
       {/* <!-- BLOG AREA END -->
 
     <!-- CALL TO ACTION START (call-to-action-6) --> */}

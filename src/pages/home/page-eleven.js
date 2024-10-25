@@ -1088,7 +1088,7 @@ function HomeVersionEleven(props) {
       {/* <!-- TESTIMONIAL AREA END -->
 
     <!-- BLOG AREA START (blog-3) --> */}
-      <div className="ltn__blog-area pb-70">
+      {/* <div className="ltn__blog-area pb-70">
         <Container>
           <Row>
             <Col lg={12}>
@@ -1114,7 +1114,7 @@ function HomeVersionEleven(props) {
             })}
           </Slider>
         </Container>
-      </div>
+      </div> */}
       {/* <!-- BLOG AREA END -->
 
     <!-- CALL TO ACTION START (call-to-action-6) --> */}

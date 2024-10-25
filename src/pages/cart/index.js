@@ -76,7 +76,7 @@ const Cart = () => {
                                   </h4>
                                 </td>
                                 <td className="cart-product-price">
-                                  ${discountedPrice}
+                                &#x20B9;{discountedPrice}
                                 </td>
                                 <td className="cart-product-quantity">
                                   <div className="cart-plus-minus">

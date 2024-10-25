@@ -573,7 +573,7 @@ function HomePageFive(props) {
                 {/* <!-- TESTIMONIAL AREA END --> */}
 
                 {/* <!-- BLOG AREA START (blog-3) -->  */}
-                <div className="ltn__blog-area pb-70">
+                {/* <div className="ltn__blog-area pb-70">
                     <Container>
                         <Row>
                             <Col lg={12}>
@@ -599,7 +599,7 @@ function HomePageFive(props) {
                             })}
                         </Slider>
                     </Container>
-                </div>
+                </div> */}
                 {/* <!-- BLOG AREA END --> */}
 
                 <div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom">

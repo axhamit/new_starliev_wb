@@ -1253,8 +1253,8 @@ function ProductDetails({ product }) {
                                   <a href={slug}>{product.title}</a>
                                 </h6>
                                 <div className="product-price">
-                                  <span>${product.price}</span>
-                                  <del>${discountedPrice}</del>
+                                  <span>&#x20B9;{product.price}</span>
+                                  <del>&#x20B9;{discountedPrice}</del>
                                 </div>
                               </div>
                             </div>
